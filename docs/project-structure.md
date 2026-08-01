@@ -1,5 +1,7 @@
 # 🏗️ Project Structure
 
+### 🌳 Project Tree
+
 📁 .vscode/<br>
 ├── 📄 settings.json<br>
 ├── 📄 extensions.json<br>
@@ -33,3 +35,47 @@
 📄 README.md<br>
 📄 tsconfig.json<br>
 <br>
+
+---
+
+📁 .vscode/<br>
+├── 📄 settings.json<br>
+├── 📄 extensions.json<br>
+
+### .vscode/
+
+**Purpose:**<br>
+
+Stores Visual Studio Code workspace settings for this project.
+
+Notes:
+
+- Not required for the application to run.
+- Can be safely recreated by VS Code.
+- Mainly improves the development experience.
+
+### extensions.json
+
+Lists recommended VS Code extensions for developers working on the project.
+
+Examples:
+
+- Expo Tools
+- ESLint
+- Prettier
+
+Installing these extensions is optional but recommended.
+
+### settings.json
+
+Stores project-specific VS Code settings.
+
+Examples:
+
+- Formatting preferences
+- TypeScript settings
+- Editor behavior
+
+These settings apply only when this project is opened in VS Code.
+
+---
