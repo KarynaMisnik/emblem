@@ -66,6 +66,17 @@ Examples:
 
 Installing these extensions is optional but recommended.
 
+In this project:
+
+`{ "recommendations": ["expo.vscode-expo-tools"] }
+`
+
+**Expo-tools** is recommended extension but not mandatory, which means it won't break anything in the project.
+
+`expo.vscode-expo-tools` is a unique extention ID. If the extension isn't installed, VS Code may show a notification like:
+
+> This workspace recommends the Expo Tools extension."
+
 ### settings.json
 
 Stores project-specific VS Code settings.
@@ -77,5 +88,9 @@ Examples:
 - Editor behavior
 
 These settings apply only when this project is opened in VS Code.
+
+In this project:
+
+VS Code settings for automatically organizing and cleaning code on save.
 
 ---
