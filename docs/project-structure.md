@@ -1,5 +1,16 @@
 # 🏗️ Project Structure
 
+## Content
+
+- [🌳 Project Tree](#🌳-project-tree)
+- [.vscode/](#.vscode/)
+  - [settings.json](#settings.json)
+  - [extensions.json](#extensions.json)
+- [app/](#app/)
+  - [(tabs)](<#(tabs)>)
+    - [\_layout.tsx](#_layout.tsx)
+    - [index.tsx](#index.tsx)
+
 ### 🌳 Project Tree
 
 📁 .vscode/<br>
@@ -94,3 +105,25 @@ In this project:
 VS Code settings for automatically organizing and cleaning code on save.
 
 ---
+
+### app/
+
+Purpose:
+
+Contains all application routes (screens) managed by Expo Router.
+
+- Every screen in the app lives here.<br>
+- The folder structure defines the navigation structure.<br>
+- Special files like `\_layout.tsx configure navigation rather than display a screen.<br>
+
+### (tabs)/
+
+Purpose:
+
+A route group used to organize screens that share the same tab navigation.
+
+**Important points:**
+
+It is not part of the route name.<br>
+It helps organize related screens.<br>
+Its `_layout.tsx` usually defines a <Tabs /> navigator.<br>
