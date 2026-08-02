@@ -110,11 +110,10 @@ VS Code settings for automatically organizing and cleaning code on save.
 
 Purpose:
 
-Contains all application routes (screens) managed by Expo Router.
+Contains all application routes (screens) managed by **Expo Router**.
 
 - Every screen in the app lives here.<br>
 - The folder structure defines the navigation structure.<br>
-- Special files like `\_layout.tsx configure navigation rather than display a screen.<br>
 
 ### (tabs)/
 
@@ -122,8 +121,58 @@ Purpose:
 
 A route group used to organize screens that share the same tab navigation.
 
-**Important points:**
+Unlike a normal folder, its name does not become part of the navigation route. The parentheses tell Expo Router that this folder exists only for organization.
 
-It is not part of the route name.<br>
-It helps organize related screens.<br>
-Its `_layout.tsx` usually defines a <Tabs /> navigator.<br>
+📁 app/(tabs)<br>
+├── 📄 \_layout.tsx<br>
+├── 📄 index.tsx<br>
+
+creates route `/` (root screen) but NOT `/(tabs)`
+
+├── (tabs)/
+│ ├── index.tsx
+│ └── profile.tsx
+
+creates the routes:
+
+/
+
+and
+
+/profile
+
+not
+
+/(tabs)
+/(tabs)/profile
+
+The parentheses are a special convention recognized by Expo Router.
+
+With parentheses the folder name is ignored when generating routes.
+
+Route groups let developers organize the project without affecting the app's navigation.
+
+For example, screens displayed inside a bottom tab navigator can be placed in one group, while authentication screens can be placed in another:
+
+app/<br>
+├── login.tsx<br>
+├── register.tsx<br>
+├── (tabs)/<br>
+└── (admin)/<br>
+
+This keeps the project organized while maintaining clean routes.
+
+> The folder can have any name. The name is chosen by the developer to describe the purpose of the group.
+
+**How it works behind the scenes**
+
+When Expo Router starts, it scans the app/ folder and automatically discovers every screen.
+
+For route groups, Expo Router:
+
+Finds the folder.
+Recognizes the parentheses.
+Uses the folder only for grouping related screens.
+Ignores the folder name when creating routes.
+
+The screens inside the group are still discovered automatically.
