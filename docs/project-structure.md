@@ -106,6 +106,10 @@ VS Code settings for automatically organizing and cleaning code on save.
 
 ---
 
+📁 app/(tabs)<br>
+├── 📄 \_layout.tsx<br>
+├── 📄 index.tsx<br>
+
 ### app/
 
 Purpose:
@@ -176,3 +180,19 @@ Uses the folder only for grouping related screens.
 Ignores the folder name when creating routes.
 
 The screens inside the group are still discovered automatically.
+
+Relationship with \_layout.tsx
+
+A route group often contains its own **\_layout.tsx**.
+
+The **\_layout.tsx** defines how the screens inside the group are displayed.
+
+For a tabs group, it commonly returns:
+
+<Tabs />
+
+This tells Expo Router to display every screen in that group using a bottom tab navigator.
+
+The folder name (tabs) itself does not create the tabs. It is simply a descriptive name chosen by the developer.
+
+The tab navigation is created by the **\_layout.tsx** inside the folder.
