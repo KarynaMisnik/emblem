@@ -196,3 +196,11 @@ This tells Expo Router to display every screen in that group using a bottom tab 
 The folder name (tabs) itself does not create the tabs. It is simply a descriptive name chosen by the developer.
 
 The tab navigation is created by the **\_layout.tsx** inside the folder.
+
+**index.tsx**
+
+It represents the default screen for that folder, typically becomes your app's:
+
+<code>/</code>
+
+route — the home screen.
