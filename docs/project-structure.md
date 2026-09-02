@@ -204,3 +204,48 @@ It represents the default screen for that folder, typically becomes your app's:
 <code>/</code>
 
 route — the home screen.
+
+<code>assets/</code>
+Contains static resources used by the application, such as images, icons, and fonts.
+
+<code>components/</code>
+Contains reusable UI components that are used across the application, such as cards, buttons, or navigation elements.
+
+<code>constants/</code>
+Contains shared constant values used throughout the application, such as theme colors, fonts, spacing, and other design values.
+
+<code>hooks/</code>
+Contains reusable React logic, such as state management, effects, or device-related functionality.
+
+<code>node_modules/</code>
+Contains all installed npm packages and their dependencies required by the project. It is generated automatically by npm install and is usually not committed to Git.
+
+<code>scripts/</code>
+Contains utility scripts used to automate project-related tasks, such as resetting the project to its initial state.
+
+<code>.gitignore</code>
+Specifies files and folders that Git should ignore and not include in commits.
+
+<code>AGENTS.md (Deleted)</code>
+Instructions for AI coding agents working with the project. Not required for the application itself.
+
+<code>app.json</code>
+Contains the Expo configuration and metadata for the application, such as its name, version, icon, and platform-specific settings.
+
+<code>CLAUDE.md (Deleted)</code>
+Means essentially "include/read the instructions from AGENTS.md too" when Claude Code works with the project.
+
+<code>eslint.config.js (development tooling)</code>
+Contains the ESLint configuration used to check and maintain code quality and consistency.
+
+<code>expo-env.d.ts</code>
+Provides Expo-specific TypeScript type definitions. Automatically managed by Expo and should not be edited manually.
+
+<code>package.json</code>
+Contains project metadata, dependencies, and npm scripts used to manage and run the application.
+
+<code>package-lock.json</code>
+Records the exact versions of installed packages and their dependencies to ensure consistent installations.
+
+<code>tsconfig.json</code>
+Contains the TypeScript configuration used to type-check and compile the project's TypeScript code.
