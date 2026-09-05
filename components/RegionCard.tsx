@@ -1,11 +1,11 @@
 import { Image, Pressable, Text, View } from "react-native";
 
-export default function RegionCard() {
+export default function RegionCard({ name, image }) {
   return (
     <Pressable style={{ backgroundColor: "white", borderRadius: "15px" }}>
       <View style={{ margin: ".5rem" }}>
         <View>
-          <Image source={require("../assets/Ahvenanmaa/Ahvenanmaa.png")} />
+          <Image source={image} />
         </View>
         <View>
           <Text
@@ -17,7 +17,7 @@ export default function RegionCard() {
               marginTop: ".5rem",
             }}
           >
-            Region name
+            {name}
           </Text>
         </View>
       </View>

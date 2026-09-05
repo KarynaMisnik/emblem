@@ -11,7 +11,10 @@ export default function HomeScreen() {
         backgroundColor: "rgba(0, 0, 0, 0.87)",
       }}
     >
-      <RegionCard></RegionCard>
+      <RegionCard
+        name="Uusimaa"
+        image={require("@/assets/Uusimaa/Uusimaa.png")}
+      ></RegionCard>
     </View>
   );
 }
