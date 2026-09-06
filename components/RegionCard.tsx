@@ -2,10 +2,19 @@ import { Image, Pressable, Text, View } from "react-native";
 
 export default function RegionCard({ name, image }) {
   return (
-    <Pressable style={{ backgroundColor: "white", borderRadius: "15px" }}>
-      <View style={{ margin: ".5rem" }}>
+    <Pressable
+      style={{
+        backgroundColor: "white",
+        borderRadius: 15,
+        marginBottom: 20,
+      }}
+    >
+      <View>
         <View>
-          <Image source={image} />
+          <Image
+            source={image}
+            style={{ width: 200, height: 200, resizeMode: "contain" }}
+          />
         </View>
         <View>
           <Text
@@ -13,8 +22,8 @@ export default function RegionCard({ name, image }) {
               color: "black",
               textAlign: "center",
               fontWeight: "bold",
-              fontSize: "1.5rem",
-              marginTop: ".5rem",
+              fontSize: 24,
+              marginTop: 8,
             }}
           >
             {name}
