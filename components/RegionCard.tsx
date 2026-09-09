@@ -1,6 +1,6 @@
 import { Image, Pressable, Text, View } from "react-native";
 
-export default function RegionCard({ name, image }) {
+export default function RegionCard({ name, image, imageSize }) {
   return (
     <Pressable
       style={{
@@ -13,7 +13,11 @@ export default function RegionCard({ name, image }) {
         <View>
           <Image
             source={image}
-            style={{ width: 200, height: 200, resizeMode: "contain" }}
+            style={{
+              width: imageSize,
+              height: imageSize,
+              resizeMode: "contain",
+            }}
           />
         </View>
         <View>
