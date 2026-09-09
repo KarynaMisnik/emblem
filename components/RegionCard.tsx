@@ -1,33 +1,42 @@
 import { Image, Pressable, Text, View } from "react-native";
 
-export default function RegionCard({ name, image, imageSize }) {
+export default function RegionCard({ name, image, cardWidth }) {
   return (
     <Pressable
       style={{
+        width: cardWidth,
         backgroundColor: "white",
         borderRadius: 15,
-        marginBottom: 20,
       }}
     >
       <View>
-        <View>
+        <View
+          style={{
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           <Image
             source={image}
             style={{
-              width: imageSize,
-              height: imageSize,
+              width: cardWidth * 0.9,
+              height: cardWidth * 0.9,
               resizeMode: "contain",
+              marginTop: 10,
             }}
           />
         </View>
-        <View>
+        <View style={{ width: "100%" }}>
           <Text
+            numberOfLines={2}
+            ellipsizeMode="tail"
             style={{
               color: "black",
               textAlign: "center",
               fontWeight: "bold",
               fontSize: 24,
-              marginTop: 8,
+              height: 60,
+              margin: 8,
             }}
           >
             {name}
