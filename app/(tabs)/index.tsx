@@ -31,6 +31,7 @@ export default function HomeScreen() {
             name={region.name}
             image={region.image}
             cardWidth={cardWidth}
+            regionCode={region.regionCode}
           />
         ))}
       </View>
