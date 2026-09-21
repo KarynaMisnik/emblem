@@ -1,8 +1,10 @@
+import { router } from "expo-router";
 import { Image, Pressable, Text, View } from "react-native";
 
-export default function RegionCard({ name, image, cardWidth }) {
+export default function RegionCard({ name, image, cardWidth, regionCode }) {
   return (
     <Pressable
+      onPress={() => router.push(`/region/${regionCode}`)}
       style={{
         width: cardWidth,
         backgroundColor: "white",
