@@ -11,7 +11,6 @@ export default function RegionScreen() {
       <View
         style={{
           margin: 10,
-
           backgroundColor: "white",
         }}
       >
@@ -37,6 +36,9 @@ export default function RegionScreen() {
           </Text>
         </View>
         <Text style={{ margin: 8 }}>{region?.blazon}</Text>
+      </View>
+      <View>
+        <Image source={region?.location} />
       </View>
     </ScrollView>
   );
