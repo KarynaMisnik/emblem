@@ -1,44 +1,45 @@
+import RegionHeader from "@/components/RegionHeader";
+import RegionMap from "@/components/RegionMap";
 import { regions } from "@/data/regions";
 import { useLocalSearchParams } from "expo-router";
-import { Image, ScrollView, Text, View } from "react-native";
+import { ScrollView, View } from "react-native";
 
 export default function RegionScreen() {
   const { regionCode } = useLocalSearchParams();
   const region = regions.find((region) => region.regionCode === regionCode);
+  const sectionHeight = 350;
 
   return (
     <ScrollView style={{ backgroundColor: "rgba(0, 0, 0, 0.87)" }}>
-      <View
-        style={{
-          margin: 10,
-          backgroundColor: "white",
-        }}
-      >
-        <View style={{ flexDirection: "row", margin: 8 }}>
-          <Image
-            source={region?.image}
-            style={{
-              width: 50,
-              height: 50,
-              resizeMode: "contain",
-            }}
-          />
-
-          <Text
-            style={{
-              fontWeight: "bold",
-              fontSize: 24,
-              height: 60,
-              margin: 8,
-            }}
-          >
-            {region?.name}
-          </Text>
+      <View style={{ flexDirection: "row" }}>
+        <View
+          style={{
+            flex: 1,
+            height: sectionHeight,
+            margin: 10,
+            backgroundColor: "white",
+            borderRadius: 8,
+          }}
+        >
+          <RegionHeader
+            name={region?.name}
+            image={region?.image}
+            blazon={region?.blazon}
+          ></RegionHeader>
         </View>
-        <Text style={{ margin: 8 }}>{region?.blazon}</Text>
-      </View>
-      <View>
-        <Image source={region?.location} />
+
+        <View
+          style={{
+            flex: 1,
+            alignItems: "center",
+            height: sectionHeight,
+            margin: 10,
+            backgroundColor: "white",
+            borderRadius: 8,
+          }}
+        >
+          <RegionMap location={region?.location}></RegionMap>
+        </View>
       </View>
     </ScrollView>
   );
