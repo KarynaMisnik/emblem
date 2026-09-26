@@ -24,7 +24,7 @@ export default function RegionScreen() {
           <RegionHeader
             name={region?.name}
             image={region?.image}
-            blazon={region?.blazon}
+            regionDescription={region?.regionDescription}
           ></RegionHeader>
         </View>
 

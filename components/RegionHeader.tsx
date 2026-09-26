@@ -1,6 +1,6 @@
 import { Image, Text, View } from "react-native";
 
-export default function RegionScreen({ name, image, blazon }) {
+export default function RegionScreen({ name, image, regionDescription }) {
   return (
     <View>
       <View style={{ flexDirection: "row", margin: 8 }}>
@@ -24,7 +24,7 @@ export default function RegionScreen({ name, image, blazon }) {
           {name}
         </Text>
       </View>
-      <Text style={{ margin: 8 }}>{blazon}</Text>
+      <Text style={{ margin: 8 }}>{regionDescription}</Text>
     </View>
   );
 }
