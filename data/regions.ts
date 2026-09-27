@@ -15,7 +15,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Brändö",
-        areaCode: "KU035",
+        municipalityCode: "KU035",
         lat: 60.411621,
         lon: 21.04561,
         url: require("@/assets/Ahvenanmaa/Brändö.png"),
@@ -28,7 +28,7 @@ export const regions = [
       },
       {
         municipality: "Eckerö",
-        areaCode: "KU043",
+        municipalityCode: "KU043",
         lat: 60.223129,
         lon: 19.55961,
         url: require("@/assets/Ahvenanmaa/Eckerö.png"),
@@ -40,7 +40,7 @@ export const regions = [
       },
       {
         municipality: "Finström",
-        areaCode: "KU060",
+        municipalityCode: "KU060",
         lat: 60.234699,
         lon: 19.98102,
         url: require("@/assets/Ahvenanmaa/Finström.png"),
@@ -52,7 +52,7 @@ export const regions = [
       },
       {
         municipality: "Föglö",
-        areaCode: "KU062",
+        municipalityCode: "KU062",
         lat: 60.029461,
         lon: 20.38883,
         url: require("@/assets/Ahvenanmaa/Föglö.png"),
@@ -65,7 +65,7 @@ export const regions = [
       },
       {
         municipality: "Geta",
-        areaCode: "KU065",
+        municipalityCode: "KU065",
         lat: 60.3740157,
         lon: 19.8498128,
         url: require("@/assets/Ahvenanmaa/Geta.png"),
@@ -77,7 +77,7 @@ export const regions = [
       },
       {
         municipality: "Hammarland",
-        areaCode: "KU076",
+        municipalityCode: "KU076",
         lat: 60.2196758,
         lon: 19.7378481,
         url: require("@/assets/Ahvenanmaa/Hammarland.png"),
@@ -90,7 +90,7 @@ export const regions = [
       },
       {
         municipality: "Jomala",
-        areaCode: "KU170",
+        municipalityCode: "KU170",
         lat: 60.1550371,
         lon: 19.9513366,
         url: require("@/assets/Ahvenanmaa/Jomala.png"),
@@ -103,7 +103,7 @@ export const regions = [
       },
       {
         municipality: "Kökar",
-        areaCode: "KU318",
+        municipalityCode: "KU318",
         lat: 59.9211709,
         lon: 20.9103514,
         url: require("@/assets/Ahvenanmaa/Kökar.png"),
@@ -115,7 +115,7 @@ export const regions = [
       },
       {
         municipality: "Kumlinge",
-        areaCode: "KU295",
+        municipalityCode: "KU295",
         lat: 60.2599501,
         lon: 20.7786249,
         url: require("@/assets/Ahvenanmaa/Kumlinge.png"),
@@ -128,7 +128,7 @@ export const regions = [
       },
       {
         municipality: "Lemland",
-        areaCode: "KU417",
+        municipalityCode: "KU417",
         lat: 60.055716,
         lon: 20.1220703,
         url: require("@/assets/Ahvenanmaa/Lemland.png"),
@@ -141,7 +141,7 @@ export const regions = [
       },
       {
         municipality: "Lumparland",
-        areaCode: "KU438",
+        municipalityCode: "KU438",
         lat: 60.1168691,
         lon: 20.271068,
         url: require("@/assets/Ahvenanmaa/Lumparland.png"),
@@ -154,7 +154,7 @@ export const regions = [
       },
       {
         municipality: "Maarianhamina",
-        areaCode: "KU478",
+        municipalityCode: "KU478",
         lat: 60.102423,
         lon: 19.94126,
         url: require("@/assets/Ahvenanmaa/Maarianhamina.png"),
@@ -167,7 +167,7 @@ export const regions = [
       },
       {
         municipality: "Saltvik",
-        areaCode: "KU736",
+        municipalityCode: "KU736",
         lat: 60.2755756,
         lon: 20.0612065,
         url: require("@/assets/Ahvenanmaa/Saltvik.png"),
@@ -180,7 +180,7 @@ export const regions = [
       },
       {
         municipality: "Sottunga",
-        areaCode: "KU766",
+        municipalityCode: "KU766",
         lat: 60.13038,
         lon: 20.6668832,
         url: require("@/assets/Ahvenanmaa/Sottunga.png"),
@@ -193,7 +193,7 @@ export const regions = [
       },
       {
         municipality: "Sund",
-        areaCode: "KU771",
+        municipalityCode: "KU771",
         lat: 60.2530332,
         lon: 20.1198637,
         url: require("@/assets/Ahvenanmaa/Sund.png"),
@@ -206,7 +206,7 @@ export const regions = [
       },
       {
         municipality: "Vårdö",
-        areaCode: "KU941",
+        municipalityCode: "KU941",
         lat: 60.2421692,
         lon: 20.3744261,
         url: require("@/assets/Ahvenanmaa/Vårdö.png"),
@@ -242,7 +242,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Imatra",
-        areaCode: "KU153",
+        municipalityCode: "KU153",
         lat: 61.1923342,
         lon: 28.7716996,
         url: require("@/assets/Etelä-Karjala/Imatra.png"),
@@ -255,7 +255,7 @@ export const regions = [
       },
       {
         municipality: "Lappeenranta",
-        areaCode: "KU405",
+        municipalityCode: "KU405",
         lat: 61.0583713,
         lon: 28.1862742,
         url: require("@/assets/Etelä-Karjala/Lappeenranta.png"),
@@ -268,7 +268,7 @@ export const regions = [
       },
       {
         municipality: "Lemi",
-        areaCode: "KU416",
+        municipalityCode: "KU416",
         lat: 61.0618219,
         lon: 27.8048099,
         url: require("@/assets/Etelä-Karjala/Lemi.png"),
@@ -281,7 +281,7 @@ export const regions = [
       },
       {
         municipality: "Luumäki",
-        areaCode: "KU441",
+        municipalityCode: "KU441",
         lat: 60.9224424,
         lon: 27.569202,
         url: require("@/assets/Etelä-Karjala/Luumäki.png"),
@@ -294,7 +294,7 @@ export const regions = [
       },
       {
         municipality: "Parikkala",
-        areaCode: "KU580",
+        municipalityCode: "KU580",
         lat: 61.5579662,
         lon: 29.5013573,
         url: require("@/assets/Etelä-Karjala/Parikkala.png"),
@@ -307,7 +307,7 @@ export const regions = [
       },
       {
         municipality: "Rautjärvi",
-        areaCode: "KU689",
+        municipalityCode: "KU689",
         lat: 61.364831949999996,
         lon: 29.20901438249392,
         url: require("@/assets/Etelä-Karjala/Rautijärvi.png"),
@@ -320,7 +320,7 @@ export const regions = [
       },
       {
         municipality: "Ruokolahti",
-        areaCode: "KU700",
+        municipalityCode: "KU700",
         lat: 61.2912416,
         lon: 28.8295473,
         url: require("@/assets/Etelä-Karjala/Ruokolahti.png"),
@@ -333,7 +333,7 @@ export const regions = [
       },
       {
         municipality: "Savitaipale",
-        areaCode: "KU739",
+        municipalityCode: "KU739",
         lat: 61.198266,
         lon: 27.6815422,
         url: require("@/assets/Etelä-Karjala/Savitaipale.png"),
@@ -346,7 +346,7 @@ export const regions = [
       },
       {
         municipality: "Taipalsaari",
-        areaCode: "KU739",
+        municipalityCode: "KU739",
         lat: 61.1611958,
         lon: 28.0599716,
         url: require("@/assets/Etelä-Karjala/Taipalsaari.png"),
@@ -431,7 +431,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Ähtäri",
-        areaCode: "KU989",
+        municipalityCode: "KU989",
         lat: 62.5499772,
         lon: 24.0702272,
         url: require("@/assets/Etelä-Pohjanmaa/Ähtäri.png"),
@@ -444,7 +444,7 @@ export const regions = [
       },
       {
         municipality: "Alajärvi",
-        areaCode: "KU005",
+        municipalityCode: "KU005",
         lat: 62.9998641,
         lon: 23.8167613,
         url: require("@/assets/Etelä-Pohjanmaa/Alajärvi.png"),
@@ -456,7 +456,7 @@ export const regions = [
       },
       {
         municipality: "Evijärvi",
-        areaCode: "KU052",
+        municipalityCode: "KU052",
         lat: 63.3670713,
         lon: 23.4768632,
         url: require("@/assets/Etelä-Pohjanmaa/Evijärvi.png"),
@@ -469,7 +469,7 @@ export const regions = [
       },
       {
         municipality: "Ilmajoki",
-        areaCode: "KU145",
+        municipalityCode: "KU145",
         lat: 62.731342,
         lon: 22.5797719,
         url: require("@/assets/Etelä-Pohjanmaa/Ilmajoki.png"),
@@ -482,7 +482,7 @@ export const regions = [
       },
       {
         municipality: "Isojoki",
-        areaCode: "KU151",
+        municipalityCode: "KU151",
         lat: 62.1143416,
         lon: 21.9587762,
         url: require("@/assets/Etelä-Pohjanmaa/Isojoki.png"),
@@ -494,7 +494,7 @@ export const regions = [
       },
       {
         municipality: "Isokyrö",
-        areaCode: "KU152",
+        municipalityCode: "KU152",
         lat: 63,
         lon: 22.316667,
         url: require("@/assets/Etelä-Pohjanmaa/Isokyrö.png"),
@@ -507,7 +507,7 @@ export const regions = [
       },
       {
         municipality: "Karijoki",
-        areaCode: "KU218",
+        municipalityCode: "KU218",
         lat: 62.307535,
         lon: 21.7077697,
         url: require("@/assets/Etelä-Pohjanmaa/Karijoki.png"),
@@ -519,7 +519,7 @@ export const regions = [
       },
       {
         municipality: "Kauhajoki",
-        areaCode: "KU232",
+        municipalityCode: "KU232",
         lat: 62.431748,
         lon: 22.1841988,
         url: require("@/assets/Etelä-Pohjanmaa/Kauhajoki.png"),
@@ -532,7 +532,7 @@ export const regions = [
       },
       {
         municipality: "Kauhava",
-        areaCode: "KU233",
+        municipalityCode: "KU233",
         lat: 63.0993728,
         lon: 23.0569547,
         url: require("@/assets/Etelä-Pohjanmaa/Kauhava.png"),
@@ -545,7 +545,7 @@ export const regions = [
       },
       {
         municipality: "Kuortane",
-        areaCode: "KU300",
+        municipalityCode: "KU300",
         lat: 62.8069866,
         lon: 23.5069436,
         url: require("@/assets/Etelä-Pohjanmaa/Kuortane.png"),
@@ -558,7 +558,7 @@ export const regions = [
       },
       {
         municipality: "Kurikka",
-        areaCode: "KU301",
+        municipalityCode: "KU301",
         lat: 62.6171778,
         lon: 22.3992088,
         url: require("@/assets/Etelä-Pohjanmaa/Kurikka.png"),
@@ -571,7 +571,7 @@ export const regions = [
       },
       {
         municipality: "Lappajärvi",
-        areaCode: "KU403",
+        municipalityCode: "KU403",
         lat: 63.2193382,
         lon: 23.628386,
         url: require("@/assets/Etelä-Pohjanmaa/Lappajärvi.png"),
@@ -584,7 +584,7 @@ export const regions = [
       },
       {
         municipality: "Lapua",
-        areaCode: "KU408",
+        municipalityCode: "KU408",
         lat: 62.9702783,
         lon: 23.0068628,
         url: require("@/assets/Etelä-Pohjanmaa/Lapua.png"),
@@ -597,7 +597,7 @@ export const regions = [
       },
       {
         municipality: "Seinäjoki",
-        areaCode: "KU743",
+        municipalityCode: "KU743",
         lat: 62.7954104,
         lon: 22.8442015,
         url: require("@/assets/Etelä-Pohjanmaa/Seinäjoki.png"),
@@ -610,7 +610,7 @@ export const regions = [
       },
       {
         municipality: "Soini",
-        areaCode: "KU759",
+        municipalityCode: "KU759",
         lat: 62.8738088,
         lon: 24.2076547,
         url: require("@/assets/Etelä-Pohjanmaa/Soini.png"),
@@ -622,7 +622,7 @@ export const regions = [
       },
       {
         municipality: "Teuva",
-        areaCode: "KU846",
+        municipalityCode: "KU846",
         lat: 62.4869027,
         lon: 21.7460027,
         url: require("@/assets/Etelä-Pohjanmaa/Teuva.png"),
@@ -634,7 +634,7 @@ export const regions = [
       },
       {
         municipality: "Alavus",
-        areaCode: "KU010",
+        municipalityCode: "KU010",
         lat: 62.5862041,
         lon: 23.6185286,
         url: require("@/assets/Etelä-Pohjanmaa/Alavus.png"),
@@ -647,7 +647,7 @@ export const regions = [
       },
       {
         municipality: "Vimpeli",
-        areaCode: "KU934",
+        municipalityCode: "KU934",
         lat: 63.1614796,
         lon: 23.8177693,
         url: require("@/assets/Etelä-Pohjanmaa/Vimpeli.png"),
@@ -762,7 +762,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Enonkoski",
-        areaCode: "KU046",
+        municipalityCode: "KU046",
         lat: 62.0887054,
         lon: 28.9161938,
         url: require("@/assets/Etelä-Savo/Enonkoski.png"),
@@ -775,7 +775,7 @@ export const regions = [
       },
       {
         municipality: "Hirvensalmi",
-        areaCode: "KU097",
+        municipalityCode: "KU097",
         lat: 61.6413044,
         lon: 26.7763836,
         url: require("@/assets/Etelä-Savo/Hirvensalmi.png"),
@@ -787,7 +787,7 @@ export const regions = [
       },
       {
         municipality: "Juva",
-        areaCode: "KU178",
+        municipalityCode: "KU178",
         lat: 61.8961369,
         lon: 27.859727,
         url: require("@/assets/Etelä-Savo/Juva.png"),
@@ -800,7 +800,7 @@ export const regions = [
       },
       {
         municipality: "Kangasniemi",
-        areaCode: "KU213",
+        municipalityCode: "KU213",
         lat: 61.9895047,
         lon: 26.6440817,
         url: require("@/assets/Etelä-Savo/Kangasniemi.png"),
@@ -813,7 +813,7 @@ export const regions = [
       },
       {
         municipality: "Mäntyharju",
-        areaCode: "KU507",
+        municipalityCode: "KU507",
         lat: 61.415461,
         lon: 26.8797256,
         url: require("@/assets/Etelä-Savo/Mäntyharju.png"),
@@ -826,7 +826,7 @@ export const regions = [
       },
       {
         municipality: "Mikkeli",
-        areaCode: "KU491",
+        municipalityCode: "KU491",
         lat: 61.6877956,
         lon: 27.2726569,
         url: require("@/assets/Etelä-Savo/Mikkeli.png"),
@@ -839,7 +839,7 @@ export const regions = [
       },
       {
         municipality: "Pertunmaa",
-        areaCode: "KU588",
+        municipalityCode: "KU588",
         lat: 61.5033928,
         lon: 26.4784098,
         url: require("@/assets/Etelä-Savo/Pertunmaa.png"),
@@ -851,7 +851,7 @@ export const regions = [
       },
       {
         municipality: "Pieksämäki",
-        areaCode: "KU593",
+        municipalityCode: "KU593",
         lat: 62.300466,
         lon: 27.1639512,
         url: require("@/assets/Etelä-Savo/Pieksämäki.png"),
@@ -864,7 +864,7 @@ export const regions = [
       },
       {
         municipality: "Puumala",
-        areaCode: "KU623",
+        municipalityCode: "KU623",
         lat: 61.5231859,
         lon: 28.176906,
         url: require("@/assets/Etelä-Savo/Puumala.png"),
@@ -877,7 +877,7 @@ export const regions = [
       },
       {
         municipality: "Rantasalmi",
-        areaCode: "KU681",
+        municipalityCode: "KU681",
         lat: 62.063703,
         lon: 28.3045075,
         url: require("@/assets/Etelä-Savo/Rantasalmi.png"),
@@ -889,7 +889,7 @@ export const regions = [
       },
       {
         municipality: "Savonlinna",
-        areaCode: "KU740",
+        municipalityCode: "KU740",
         lat: 61.8689933,
         lon: 28.8797178,
         url: require("@/assets/Etelä-Savo/Savonlinna.png"),
@@ -902,7 +902,7 @@ export const regions = [
       },
       {
         municipality: "Sulkava",
-        areaCode: "KU768",
+        municipalityCode: "KU768",
         lat: 61.7879107,
         lon: 28.3724362,
         url: require("@/assets/Etelä-Savo/Sulkava.png"),
@@ -1011,7 +1011,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Hyrynsalmi",
-        areaCode: "KU105",
+        municipalityCode: "KU105",
         lat: 64.6747218,
         lon: 28.4922537,
         url: require("@/assets/Kainuu/Hyrynsalmi.png"),
@@ -1024,7 +1024,7 @@ export const regions = [
       },
       {
         municipality: "Kajaani",
-        areaCode: "KU205",
+        municipalityCode: "KU205",
         lat: 64.2240872,
         lon: 27.7334227,
         url: require("@/assets/Kainuu/Kajaani.png"),
@@ -1037,7 +1037,7 @@ export const regions = [
       },
       {
         municipality: "Kuhmo",
-        areaCode: "KU290",
+        municipalityCode: "KU290",
         lat: 64.1261745,
         lon: 29.519515,
         url: require("@/assets/Kainuu/Kuhmo.png"),
@@ -1049,7 +1049,7 @@ export const regions = [
       },
       {
         municipality: "Paltamo",
-        areaCode: "KU578",
+        municipalityCode: "KU578",
         lat: 64.4068668,
         lon: 27.8335512,
         url: require("@/assets/Kainuu/Paltamo.png"),
@@ -1062,7 +1062,7 @@ export const regions = [
       },
       {
         municipality: "Puolanka",
-        areaCode: "KU620",
+        municipalityCode: "KU620",
         lat: 64.8729778,
         lon: 27.6552537,
         url: require("@/assets/Kainuu/Puolanka.png"),
@@ -1075,7 +1075,7 @@ export const regions = [
       },
       {
         municipality: "Ristijärvi",
-        areaCode: "KU697",
+        municipalityCode: "KU697",
         lat: 64.5009039,
         lon: 28.2131567,
         url: require("@/assets/Kainuu/Ristijärvi.png"),
@@ -1088,7 +1088,7 @@ export const regions = [
       },
       {
         municipality: "Sotkamo",
-        areaCode: "KU765",
+        municipalityCode: "KU765",
         lat: 64.1318262,
         lon: 28.3878316,
         url: require("@/assets/Kainuu/Sotkamo.png"),
@@ -1100,7 +1100,7 @@ export const regions = [
       },
       {
         municipality: "Suomussalmi",
-        areaCode: "KU777",
+        municipalityCode: "KU777",
         lat: 64.8847582,
         lon: 28.9145906,
         url: require("@/assets/Kainuu/Suomussalmi.png"),
@@ -1149,7 +1149,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Forssa",
-        areaCode: "KU061",
+        municipalityCode: "KU061",
         lat: 60.8155736,
         lon: 23.629833,
         url: require("@/assets/Kanta-Häme/Forssa.png"),
@@ -1161,7 +1161,7 @@ export const regions = [
       },
       {
         municipality: "Hämeenlinna",
-        areaCode: "KU109",
+        municipalityCode: "KU109",
         lat: 60.9948584,
         lon: 24.46654,
         url: require("@/assets/Kanta-Häme/Hämeenlinna.png"),
@@ -1174,7 +1174,7 @@ export const regions = [
       },
       {
         municipality: "Hattula",
-        areaCode: "KU082",
+        municipalityCode: "KU082",
         lat: 61.0631229,
         lon: 24.3669975,
         url: require("@/assets/Kanta-Häme/Hattula.png"),
@@ -1187,7 +1187,7 @@ export const regions = [
       },
       {
         municipality: "Hausjärvi",
-        areaCode: "KU086",
+        municipalityCode: "KU086",
         lat: 60.7788065,
         lon: 24.9735698,
         url: require("@/assets/Kanta-Häme/Hausjärvi.png"),
@@ -1200,7 +1200,7 @@ export const regions = [
       },
       {
         municipality: "Humppila",
-        areaCode: "KU103",
+        municipalityCode: "KU103",
         lat: 60.933333,
         lon: 23.366667,
         url: require("@/assets/Kanta-Häme/Humppila.png"),
@@ -1212,7 +1212,7 @@ export const regions = [
       },
       {
         municipality: "Janakkala",
-        areaCode: "KU165",
+        municipalityCode: "KU165",
         lat: 60.9063816,
         lon: 24.6186447,
         url: require("@/assets/Kanta-Häme/Janakkala.png"),
@@ -1225,7 +1225,7 @@ export const regions = [
       },
       {
         municipality: "Jokioinen",
-        areaCode: "KU169",
+        municipalityCode: "KU169",
         lat: 60.8033158,
         lon: 23.4868447,
         url: require("@/assets/Kanta-Häme/Jokioinen.png"),
@@ -1238,7 +1238,7 @@ export const regions = [
       },
       {
         municipality: "Loppi",
-        areaCode: "KU433",
+        municipalityCode: "KU433",
         lat: 60.7173615,
         lon: 24.4414178,
         url: require("@/assets/Kanta-Häme/Loppi.png"),
@@ -1251,7 +1251,7 @@ export const regions = [
       },
       {
         municipality: "Riihimäki",
-        areaCode: "KU694",
+        municipalityCode: "KU694",
         lat: 60.7390089,
         lon: 24.7728148,
         url: require("@/assets/Kanta-Häme/Riihimäki.png"),
@@ -1264,7 +1264,7 @@ export const regions = [
       },
       {
         municipality: "Tammela",
-        areaCode: "KU834",
+        municipalityCode: "KU834",
         lat: 60.8087874,
         lon: 23.7598248,
         url: require("@/assets/Kanta-Häme/Tammela.png"),
@@ -1277,7 +1277,7 @@ export const regions = [
       },
       {
         municipality: "Ypäjä",
-        areaCode: "KU981",
+        municipalityCode: "KU981",
         lat: 60.803846,
         lon: 23.2821218,
         url: require("@/assets/Kanta-Häme/Ypäjä.png"),
@@ -1368,7 +1368,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Halsua",
-        areaCode: "KU074",
+        municipalityCode: "KU074",
         lat: 63.4619279,
         lon: 24.1690324,
         url: require("@/assets/Keski-Pohjanmaa/Halsua.png"),
@@ -1381,7 +1381,7 @@ export const regions = [
       },
       {
         municipality: "Kannus",
-        areaCode: "KU217",
+        municipalityCode: "KU217",
         lat: 63.9007773,
         lon: 23.9170363,
         url: require("@/assets/Keski-Pohjanmaa/Kannus.png"),
@@ -1394,7 +1394,7 @@ export const regions = [
       },
       {
         municipality: "Kaustinen",
-        areaCode: "KU236",
+        municipalityCode: "KU236",
         lat: 63.5490486,
         lon: 23.6964967,
         url: require("@/assets/Keski-Pohjanmaa/Kaustinen.png"),
@@ -1407,7 +1407,7 @@ export const regions = [
       },
       {
         municipality: "Kokkola",
-        areaCode: "KU272",
+        municipalityCode: "KU272",
         lat: 63.8391421,
         lon: 23.1336845,
         url: require("@/assets/Keski-Pohjanmaa/Kokkola.png"),
@@ -1420,7 +1420,7 @@ export const regions = [
       },
       {
         municipality: "Lestijärvi",
-        areaCode: "KU421",
+        municipalityCode: "KU421",
         lat: 63.5245085,
         lon: 24.6683036,
         url: require("@/assets/Keski-Pohjanmaa/Lestijärvi.png"),
@@ -1432,7 +1432,7 @@ export const regions = [
       },
       {
         municipality: "Perho",
-        areaCode: "KU584",
+        municipalityCode: "KU584",
         lat: 63.214438,
         lon: 24.4196234,
         url: require("@/assets/Keski-Pohjanmaa/Perho.png"),
@@ -1445,7 +1445,7 @@ export const regions = [
       },
       {
         municipality: "Toholampi",
-        areaCode: "KU849",
+        municipalityCode: "KU849",
         lat: 63.7726231,
         lon: 24.251545,
         url: require("@/assets/Keski-Pohjanmaa/Toholampi.png"),
@@ -1458,7 +1458,7 @@ export const regions = [
       },
       {
         municipality: "Veteli",
-        areaCode: "KU924",
+        municipalityCode: "KU924",
         lat: 63.4719205,
         lon: 23.792566,
         url: require("@/assets/Keski-Pohjanmaa/Veteli.png"),
@@ -1518,7 +1518,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Äänekoski",
-        areaCode: "KU992",
+        municipalityCode: "KU992",
         lat: 62.6032186,
         lon: 25.7301361,
         url: require("@/assets/Keski-Suomi/Äänekoski.png"),
@@ -1531,7 +1531,7 @@ export const regions = [
       },
       {
         municipality: "Hankasalmi",
-        areaCode: "KU077",
+        municipalityCode: "KU077",
         lat: 62.3905202,
         lon: 26.4397473,
         url: require("@/assets/Keski-Suomi/Hankasalmi.png"),
@@ -1544,7 +1544,7 @@ export const regions = [
       },
       {
         municipality: "Jämsä",
-        areaCode: "KU182",
+        municipalityCode: "KU182",
         lat: 61.8637802,
         lon: 25.1897493,
         url: require("@/assets/Keski-Suomi/Jämsä.png"),
@@ -1557,7 +1557,7 @@ export const regions = [
       },
       {
         municipality: "Joutsa",
-        areaCode: "KU172",
+        municipalityCode: "KU172",
         lat: 61.7427363,
         lon: 26.1117278,
         url: require("@/assets/Keski-Suomi/Joutsa.png"),
@@ -1570,7 +1570,7 @@ export const regions = [
       },
       {
         municipality: "Jyväskylä",
-        areaCode: "KU179",
+        municipalityCode: "KU179",
         lat: 62.2417066,
         lon: 25.7495727,
         url: require("@/assets/Keski-Suomi/Jyväskylä.png"),
@@ -1583,7 +1583,7 @@ export const regions = [
       },
       {
         municipality: "Kannonkoski",
-        areaCode: "KU216",
+        municipalityCode: "KU216",
         lat: 62.9768822,
         lon: 25.2637374,
         url: require("@/assets/Keski-Suomi/Kannonkoski.png"),
@@ -1596,7 +1596,7 @@ export const regions = [
       },
       {
         municipality: "Karstula",
-        areaCode: "KU226",
+        municipalityCode: "KU226",
         lat: 62.8778892,
         lon: 24.8007998,
         url: require("@/assets/Keski-Suomi/Karstula.png"),
@@ -1609,7 +1609,7 @@ export const regions = [
       },
       {
         municipality: "Keuruu",
-        areaCode: "KU249",
+        municipalityCode: "KU249",
         lat: 62.2579819,
         lon: 24.7083599,
         url: require("@/assets/Keski-Suomi/Keuruu.png"),
@@ -1622,7 +1622,7 @@ export const regions = [
       },
       {
         municipality: "Kinnula",
-        areaCode: "KU256",
+        municipalityCode: "KU256",
         lat: 63.366783,
         lon: 24.9708779,
         url: require("@/assets/Keski-Suomi/Kinnula.png"),
@@ -1635,7 +1635,7 @@ export const regions = [
       },
       {
         municipality: "Kivijärvi",
-        areaCode: "KU265",
+        municipalityCode: "KU265",
         lat: 63.1223025,
         lon: 25.0725469,
         url: require("@/assets/Keski-Suomi/Kivijärvi.png"),
@@ -1648,7 +1648,7 @@ export const regions = [
       },
       {
         municipality: "Konnevesi",
-        areaCode: "KU275",
+        municipalityCode: "KU275",
         lat: 62.6266587,
         lon: 26.2916036,
         url: require("@/assets/Keski-Suomi/Konnevesi.png"),
@@ -1660,7 +1660,7 @@ export const regions = [
       },
       {
         municipality: "Kyyjärvi",
-        areaCode: "KU312",
+        municipalityCode: "KU312",
         lat: 63.0458328,
         lon: 24.563957,
         url: require("@/assets/Keski-Suomi/Kyyjärvi.png"),
@@ -1673,7 +1673,7 @@ export const regions = [
       },
       {
         municipality: "Laukaa",
-        areaCode: "KU410",
+        municipalityCode: "KU410",
         lat: 62.416667,
         lon: 25.95,
         url: require("@/assets/Keski-Suomi/Laukaa.png"),
@@ -1686,7 +1686,7 @@ export const regions = [
       },
       {
         municipality: "Luhanka",
-        areaCode: "KU435",
+        municipalityCode: "KU435",
         lat: 61.797009,
         lon: 25.7046425,
         url: require("@/assets/Keski-Suomi/Luhanka.png"),
@@ -1699,7 +1699,7 @@ export const regions = [
       },
       {
         municipality: "Multia",
-        areaCode: "KU495",
+        municipalityCode: "KU495",
         lat: 62.4099783,
         lon: 24.8000583,
         url: require("@/assets/Keski-Suomi/Multia.png"),
@@ -1711,7 +1711,7 @@ export const regions = [
       },
       {
         municipality: "Muurame",
-        areaCode: "KU500",
+        municipalityCode: "KU500",
         lat: 62.1289925,
         lon: 25.6749474,
         url: require("@/assets/Keski-Suomi/Muurame.png"),
@@ -1723,7 +1723,7 @@ export const regions = [
       },
       {
         municipality: "Petäjävesi",
-        areaCode: "KU592",
+        municipalityCode: "KU592",
         lat: 62.2504776,
         lon: 25.2004692,
         url: require("@/assets/Keski-Suomi/Petäjävesi.png"),
@@ -1735,7 +1735,7 @@ export const regions = [
       },
       {
         municipality: "Pihtipudas",
-        areaCode: "KU601",
+        municipalityCode: "KU601",
         lat: 63.3706192,
         lon: 25.5754689,
         url: require("@/assets/Keski-Suomi/Pihtipudas.png"),
@@ -1748,7 +1748,7 @@ export const regions = [
       },
       {
         municipality: "Saarijärvi",
-        areaCode: "KU729",
+        municipalityCode: "KU729",
         lat: 62.7050975,
         lon: 25.2582688,
         url: require("@/assets/Keski-Suomi/Saarijärvi.png"),
@@ -1761,7 +1761,7 @@ export const regions = [
       },
       {
         municipality: "Toivakka",
-        areaCode: "KU850",
+        municipalityCode: "KU850",
         lat: 62.0962173,
         lon: 26.0804935,
         url: require("@/assets/Keski-Suomi/Toivakka.png"),
@@ -1774,7 +1774,7 @@ export const regions = [
       },
       {
         municipality: "Uurainen",
-        areaCode: "KU892",
+        municipalityCode: "KU892",
         lat: 62.5007704,
         lon: 25.4379608,
         url: require("@/assets/Keski-Suomi/Uurainen.png"),
@@ -1787,7 +1787,7 @@ export const regions = [
       },
       {
         municipality: "Viitasaari",
-        areaCode: "KU931",
+        municipalityCode: "KU931",
         lat: 63.0837203,
         lon: 25.8528349,
         url: require("@/assets/Keski-Suomi/Viitasaari.png"),
@@ -1926,7 +1926,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Hamina",
-        areaCode: "KU075",
+        municipalityCode: "KU075",
         lat: 60.5688901,
         lon: 27.1881877,
         url: require("@/assets/Kymenlaakso/Hamina.png"),
@@ -1939,7 +1939,7 @@ export const regions = [
       },
       {
         municipality: "Kotka",
-        areaCode: "KU285",
+        municipalityCode: "KU285",
         lat: 60.4674228,
         lon: 26.9450844,
         url: require("@/assets/Kymenlaakso/Kotka.png"),
@@ -1952,7 +1952,7 @@ export const regions = [
       },
       {
         municipality: "Kouvola",
-        areaCode: "KU286",
+        municipalityCode: "KU286",
         lat: 60.8680928,
         lon: 26.7038517,
         url: require("@/assets/Kymenlaakso/Kouvola.png"),
@@ -1965,7 +1965,7 @@ export const regions = [
       },
       {
         municipality: "Miehikkälä",
-        areaCode: "KU489",
+        municipalityCode: "KU489",
         lat: 60.668917,
         lon: 27.6965167,
         url: require("@/assets/Kymenlaakso/Miehikkälä.png"),
@@ -1977,7 +1977,7 @@ export const regions = [
       },
       {
         municipality: "Pyhtää",
-        areaCode: "KU624",
+        municipalityCode: "KU624",
         lat: 60.4945625,
         lon: 26.7391561,
         url: require("@/assets/Kymenlaakso/Pyhtää.png"),
@@ -1990,7 +1990,7 @@ export const regions = [
       },
       {
         municipality: "Virolahti",
-        areaCode: "KU935",
+        municipalityCode: "KU935",
         lat: 60.5089834,
         lon: 27.6198077,
         url: require("@/assets/Kymenlaakso/Virolahti.png"),
@@ -2091,7 +2091,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Enontekiö",
-        areaCode: "KU047",
+        municipalityCode: "KU047",
         lat: 68.3854896,
         lon: 23.6437979,
         url: require("@/assets/Lappi/Enontekiö.png"),
@@ -2103,7 +2103,7 @@ export const regions = [
       },
       {
         municipality: "Inari",
-        areaCode: "KU148",
+        municipalityCode: "KU148",
         lat: 68.9062456,
         lon: 27.0260771,
         url: require("@/assets/Lappi/Inari.png"),
@@ -2116,7 +2116,7 @@ export const regions = [
       },
       {
         municipality: "Kemi",
-        areaCode: "KU240",
+        municipalityCode: "KU240",
         lat: 65.7333404,
         lon: 24.5666495,
         url: require("@/assets/Lappi/Kemi.png"),
@@ -2129,7 +2129,7 @@ export const regions = [
       },
       {
         municipality: "Kemijärvi",
-        areaCode: "KU320",
+        municipalityCode: "KU320",
         lat: 66.7161179,
         lon: 27.4333534,
         url: require("@/assets/Lappi/Kemijärvi.png"),
@@ -2142,7 +2142,7 @@ export const regions = [
       },
       {
         municipality: "Keminmaa",
-        areaCode: "KU241",
+        municipalityCode: "KU241",
         lat: 65.803014,
         lon: 24.5208776,
         url: require("@/assets/Lappi/Keminmaa.png"),
@@ -2155,7 +2155,7 @@ export const regions = [
       },
       {
         municipality: "Kittilä",
-        areaCode: "KU261",
+        municipalityCode: "KU261",
         lat: 67.651985,
         lon: 24.9095086,
         url: require("@/assets/Lappi/Kittilä.png"),
@@ -2168,7 +2168,7 @@ export const regions = [
       },
       {
         municipality: "Kolari",
-        areaCode: "KU273",
+        municipalityCode: "KU273",
         lat: 67.3303348,
         lon: 23.7814738,
         url: require("@/assets/Lappi/Kolari.png"),
@@ -2181,7 +2181,7 @@ export const regions = [
       },
       {
         municipality: "Muonio",
-        areaCode: "KU498",
+        municipalityCode: "KU498",
         lat: 67.9593397,
         lon: 23.6774037,
         url: require("@/assets/Lappi/Muonio.png"),
@@ -2194,7 +2194,7 @@ export const regions = [
       },
       {
         municipality: "Pelkosenniemi",
-        areaCode: "KU583",
+        municipalityCode: "KU583",
         lat: 67.1095969,
         lon: 27.5118116,
         url: require("@/assets/Lappi/Pelkosenniemi.png"),
@@ -2207,7 +2207,7 @@ export const regions = [
       },
       {
         municipality: "Pello",
-        areaCode: "KU854",
+        municipalityCode: "KU854",
         lat: 66.7747332,
         lon: 23.9676822,
         url: require("@/assets/Lappi/Pello.png"),
@@ -2220,7 +2220,7 @@ export const regions = [
       },
       {
         municipality: "Posio",
-        areaCode: "KU614",
+        municipalityCode: "KU614",
         lat: 66.1092595,
         lon: 28.1650783,
         url: require("@/assets/Lappi/Posio.png"),
@@ -2233,7 +2233,7 @@ export const regions = [
       },
       {
         municipality: "Ranua",
-        areaCode: "KU683",
+        municipalityCode: "KU683",
         lat: 65.9276817,
         lon: 26.5131044,
         url: require("@/assets/Lappi/Ranua.png"),
@@ -2246,7 +2246,7 @@ export const regions = [
       },
       {
         municipality: "Rovaniemi",
-        areaCode: "KU698",
+        municipalityCode: "KU698",
         lat: 66.5025657,
         lon: 25.73122,
         url: require("@/assets/Lappi/Rovaniemi.png"),
@@ -2259,7 +2259,7 @@ export const regions = [
       },
       {
         municipality: "Salla",
-        areaCode: "KU732",
+        municipalityCode: "KU732",
         lat: 66.8318774,
         lon: 28.6668631,
         url: require("@/assets/Lappi/Salla.png"),
@@ -2271,7 +2271,7 @@ export const regions = [
       },
       {
         municipality: "Savukoski",
-        areaCode: "KU742",
+        municipalityCode: "KU742",
         lat: 67.2923114,
         lon: 28.1638772,
         url: require("@/assets/Lappi/Savukoski.png"),
@@ -2283,7 +2283,7 @@ export const regions = [
       },
       {
         municipality: "Simo",
-        areaCode: "KU751",
+        municipalityCode: "KU751",
         lat: 65.662285,
         lon: 25.0638163,
         url: require("@/assets/Lappi/Simo.png"),
@@ -2296,7 +2296,7 @@ export const regions = [
       },
       {
         municipality: "Sodankylä",
-        areaCode: "KU758",
+        municipalityCode: "KU758",
         lat: 67.4189716,
         lon: 26.5902179,
         url: require("@/assets/Lappi/Sodankylä.png"),
@@ -2309,7 +2309,7 @@ export const regions = [
       },
       {
         municipality: "Tervola",
-        areaCode: "KU845",
+        municipalityCode: "KU845",
         lat: 66.0822914,
         lon: 24.8058841,
         url: require("@/assets/Lappi/Tervola.png"),
@@ -2322,7 +2322,7 @@ export const regions = [
       },
       {
         municipality: "Tornio",
-        areaCode: "Tornio",
+        municipalityCode: "Tornio",
         lat: 65.8457589,
         lon: 24.1464,
         url: require("@/assets/Lappi/Tornio.png"),
@@ -2335,7 +2335,7 @@ export const regions = [
       },
       {
         municipality: "Utsjoki",
-        areaCode: "KU890",
+        municipalityCode: "KU890",
         lat: 69.907601,
         lon: 27.0252458,
         url: require("@/assets/Lappi/Utsjoki.png"),
@@ -2348,7 +2348,7 @@ export const regions = [
       },
       {
         municipality: "Ylitornio",
-        areaCode: "KU976",
+        municipalityCode: "KU976",
         lat: 66.3164258,
         lon: 23.6712997,
         url: require("@/assets/Lappi/Ylitornio.png"),
@@ -2415,7 +2415,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Asikkala",
-        areaCode: "KU016",
+        municipalityCode: "KU016",
         lat: 61.23322975,
         lon: 25.552879094033575,
         url: require("@/assets/Päijät-Häme/Asikkala.png"),
@@ -2428,7 +2428,7 @@ export const regions = [
       },
       {
         municipality: "Hartola",
-        areaCode: "KU081",
+        municipalityCode: "KU081",
         lat: 61.5799007,
         lon: 26.0206428,
         url: require("@/assets/Päijät-Häme/Hartola.png"),
@@ -2441,7 +2441,7 @@ export const regions = [
       },
       {
         municipality: "Heinola",
-        areaCode: "KU111",
+        municipalityCode: "KU111",
         lat: 61.2027188,
         lon: 26.031371,
         url: require("@/assets/Päijät-Häme/Heinola.png"),
@@ -2454,7 +2454,7 @@ export const regions = [
       },
       {
         municipality: "Hollola",
-        areaCode: "KU098",
+        municipalityCode: "KU098",
         lat: 60.9882542,
         lon: 25.5152983,
         url: require("@/assets/Päijät-Häme/Hollola.png"),
@@ -2467,7 +2467,7 @@ export const regions = [
       },
       {
         municipality: "Iitti",
-        areaCode: "KU142",
+        municipalityCode: "KU142",
         lat: 60.8906591,
         lon: 26.3421867,
         url: require("@/assets/Päijät-Häme/Iitti.png"),
@@ -2480,7 +2480,7 @@ export const regions = [
       },
       {
         municipality: "Kärkölä",
-        areaCode: "KU316",
+        municipalityCode: "KU316",
         lat: 60.86765665,
         lon: 25.251139282110522,
         url: require("@/assets/Päijät-Häme/Kärkölä.png"),
@@ -2493,7 +2493,7 @@ export const regions = [
       },
       {
         municipality: "Lahti",
-        areaCode: "KU398",
+        municipalityCode: "KU398",
         lat: 60.9826014,
         lon: 25.6613764,
         url: require("@/assets/Päijät-Häme/Lahti.png"),
@@ -2506,7 +2506,7 @@ export const regions = [
       },
       {
         municipality: "Orimattila",
-        areaCode: "KU560",
+        municipalityCode: "KU560",
         lat: 60.805137,
         lon: 25.7333558,
         url: require("@/assets/Päijät-Häme/Orimattila.png"),
@@ -2519,7 +2519,7 @@ export const regions = [
       },
       {
         municipality: "Padasjoki",
-        areaCode: "KU576",
+        municipalityCode: "KU576",
         lat: 61.3512901,
         lon: 25.2785646,
         url: require("@/assets/Päijät-Häme/Padasjoki.png"),
@@ -2532,7 +2532,7 @@ export const regions = [
       },
       {
         municipality: "Sysmä",
-        areaCode: "KU781",
+        municipalityCode: "KU781",
         lat: 61.5073697,
         lon: 25.6738915,
         url: require("@/assets/Päijät-Häme/Sysmä.png"),
@@ -2586,7 +2586,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Akaa",
-        areaCode: "KU020",
+        municipalityCode: "KU020",
         lat: 61.1974827,
         lon: 23.8280444,
         url: require("@/assets/Pirkanmaa/Akaa.png"),
@@ -2598,7 +2598,7 @@ export const regions = [
       },
       {
         municipality: "Hämeenkyrö",
-        areaCode: "KU108",
+        municipalityCode: "KU108",
         lat: 61.633333,
         lon: 23.2,
         url: require("@/assets/Pirkanmaa/Hämeenkyrö.png"),
@@ -2611,7 +2611,7 @@ export const regions = [
       },
       {
         municipality: "Ikaalinen",
-        areaCode: "KU143",
+        municipalityCode: "KU143",
         lat: 61.7701493,
         lon: 23.0633777,
         url: require("@/assets/Pirkanmaa/Ikaalinen.png"),
@@ -2624,7 +2624,7 @@ export const regions = [
       },
       {
         municipality: "Juupajoki",
-        areaCode: "KU177",
+        municipalityCode: "KU177",
         lat: 61.82204875,
         lon: 24.428681495507263,
         url: require("@/assets/Pirkanmaa/Juupajoki.png"),
@@ -2636,7 +2636,7 @@ export const regions = [
       },
       {
         municipality: "Kangasala",
-        areaCode: "KU211",
+        municipalityCode: "KU211",
         lat: 61.462581,
         lon: 24.0730841,
         url: require("@/assets/Pirkanmaa/Kangasala.png"),
@@ -2649,7 +2649,7 @@ export const regions = [
       },
       {
         municipality: "Sastamala",
-        areaCode: "KU790",
+        municipalityCode: "KU790",
         lat: 61.45004805,
         lon: 22.841660867901894,
         url: require("@/assets/Pirkanmaa/Sastamala.png"),
@@ -2662,7 +2662,7 @@ export const regions = [
       },
       {
         municipality: "Kihniö",
-        areaCode: "KU250",
+        municipalityCode: "KU250",
         lat: 62.2031212,
         lon: 23.1763928,
         url: require("@/assets/Pirkanmaa/Kihniö.png"),
@@ -2675,7 +2675,7 @@ export const regions = [
       },
       {
         municipality: "Kuhmoinen",
-        areaCode: "KU291",
+        municipalityCode: "KU291",
         lat: 61.566667,
         lon: 25.183333,
         url: require("@/assets/Pirkanmaa/Kuhmoinen.png"),
@@ -2688,7 +2688,7 @@ export const regions = [
       },
       {
         municipality: "Lempäälä",
-        areaCode: "KU418",
+        municipalityCode: "KU418",
         lat: 61.314947,
         lon: 23.7556218,
         url: require("@/assets/Pirkanmaa/Lempäälä.png"),
@@ -2701,7 +2701,7 @@ export const regions = [
       },
       {
         municipality: "Pälkäne",
-        areaCode: "KU635",
+        municipalityCode: "KU635",
         lat: 61.3371322,
         lon: 24.2649422,
         url: require("@/assets/Pirkanmaa/Pälkäne.png"),
@@ -2713,7 +2713,7 @@ export const regions = [
       },
       {
         municipality: "Nokia",
-        areaCode: "KU536",
+        municipalityCode: "KU536",
         lat: 61.4781666,
         lon: 23.5096158,
         url: require("@/assets/Pirkanmaa/Nokia.png"),
@@ -2726,7 +2726,7 @@ export const regions = [
       },
       {
         municipality: "Orivesi",
-        areaCode: "KU562",
+        municipalityCode: "KU562",
         lat: 61.6775495,
         lon: 24.3587506,
         url: require("@/assets/Pirkanmaa/Orivesi.png"),
@@ -2739,7 +2739,7 @@ export const regions = [
       },
       {
         municipality: "Parkano",
-        areaCode: "KU581",
+        municipalityCode: "KU581",
         lat: 62.0102011,
         lon: 23.0245972,
         url: require("@/assets/Pirkanmaa/Parkano.png"),
@@ -2752,7 +2752,7 @@ export const regions = [
       },
       {
         municipality: "Pirkkala",
-        areaCode: "KU604",
+        municipalityCode: "KU604",
         lat: 61.4655292,
         lon: 23.645289,
         url: require("@/assets/Pirkanmaa/Pirkkala.png"),
@@ -2764,7 +2764,7 @@ export const regions = [
       },
       {
         municipality: "Punkalaidun",
-        areaCode: "KU619",
+        municipalityCode: "KU619",
         lat: 61.1157761,
         lon: 23.0993583,
         url: require("@/assets/Pirkanmaa/Punkalaidun.png"),
@@ -2777,7 +2777,7 @@ export const regions = [
       },
       {
         municipality: "Ruovesi",
-        areaCode: "KU702",
+        municipalityCode: "KU702",
         lat: 61.9856303,
         lon: 24.0703481,
         url: require("@/assets/Pirkanmaa/Ruovesi.png"),
@@ -2790,7 +2790,7 @@ export const regions = [
       },
       {
         municipality: "Tampere",
-        areaCode: "KU837",
+        municipalityCode: "KU837",
         lat: 61.4980214,
         lon: 23.7603118,
         url: require("@/assets/Pirkanmaa/Tampere.png"),
@@ -2803,7 +2803,7 @@ export const regions = [
       },
       {
         municipality: "Urjala",
-        areaCode: "KU887",
+        municipalityCode: "KU887",
         lat: 61.0811504,
         lon: 23.5489697,
         url: require("@/assets/Pirkanmaa/Urjala.png"),
@@ -2816,7 +2816,7 @@ export const regions = [
       },
       {
         municipality: "Valkeakoski",
-        areaCode: "KU908",
+        municipalityCode: "KU908",
         lat: 61.2637921,
         lon: 24.0301278,
         url: require("@/assets/Pirkanmaa/Valkeakoski.png"),
@@ -2829,7 +2829,7 @@ export const regions = [
       },
       {
         municipality: "Vesilahti",
-        areaCode: "KU922",
+        municipalityCode: "KU922",
         lat: 61.2970187,
         lon: 23.6388138,
         url: require("@/assets/Pirkanmaa/Vesilahti.png"),
@@ -2842,7 +2842,7 @@ export const regions = [
       },
       {
         municipality: "Mänttä-Vilppula",
-        areaCode: "KU508",
+        municipalityCode: "KU508",
         lat: 62.0826146,
         lon: 24.450432224467008,
         url: require("@/assets/Pirkanmaa/Vilppula.png"),
@@ -2855,7 +2855,7 @@ export const regions = [
       },
       {
         municipality: "Virrat",
-        areaCode: "KU936",
+        municipalityCode: "KU936",
         lat: 62.2401004,
         lon: 23.7712375,
         url: require("@/assets/Pirkanmaa/Virrat.png"),
@@ -2868,7 +2868,7 @@ export const regions = [
       },
       {
         municipality: "Ylöjärvi",
-        areaCode: "KU980",
+        municipalityCode: "KU980",
         lat: 61.5499614,
         lon: 23.5969495,
         url: require("@/assets/Pirkanmaa/Ylöjärvi.png"),
@@ -3097,7 +3097,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Kaskinen",
-        areaCode: "KU231",
+        municipalityCode: "KU231",
         lat: 62.3845858,
         lon: 21.2225761,
         url: require("@/assets/Pohjanmaa/Kaskinen.png"),
@@ -3110,7 +3110,7 @@ export const regions = [
       },
       {
         municipality: "Korsnäs",
-        areaCode: "KU280",
+        municipalityCode: "KU280",
         lat: 62.7863726,
         lon: 21.18784,
         url: require("@/assets/Pohjanmaa/Korsnäs.png"),
@@ -3123,7 +3123,7 @@ export const regions = [
       },
       {
         municipality: "Kristiinankaupunki",
-        areaCode: "KU287",
+        municipalityCode: "KU287",
         lat: 62.2736018,
         lon: 21.3730807,
         url: require("@/assets/Pohjanmaa/Kristiinankaupunki.png"),
@@ -3136,7 +3136,7 @@ export const regions = [
       },
       {
         municipality: "Kruunupyy",
-        areaCode: "KU288",
+        municipalityCode: "KU288",
         lat: 63.7288259,
         lon: 23.0215188,
         url: require("@/assets/Pohjanmaa/Kruunupyy.png"),
@@ -3149,7 +3149,7 @@ export const regions = [
       },
       {
         municipality: "Laihia",
-        areaCode: "KU399",
+        municipalityCode: "KU399",
         lat: 62.9761064,
         lon: 22.0122155,
         url: require("@/assets/Pohjanmaa/Laihia.png"),
@@ -3162,7 +3162,7 @@ export const regions = [
       },
       {
         municipality: "Luoto",
-        areaCode: "KU440",
+        municipalityCode: "KU440",
         lat: 63.7533827,
         lon: 22.7455697,
         url: require("@/assets/Pohjanmaa/Luoto.png"),
@@ -3174,7 +3174,7 @@ export const regions = [
       },
       {
         municipality: "Maalahti",
-        areaCode: "KU475",
+        municipalityCode: "KU475",
         lat: 62.9332091,
         lon: 21.5667698,
         url: require("@/assets/Pohjanmaa/Maalahti.png"),
@@ -3187,7 +3187,7 @@ export const regions = [
       },
       {
         municipality: "Mustasaari",
-        areaCode: "KU499",
+        municipalityCode: "KU499",
         lat: 63.1247621,
         lon: 21.6941345,
         url: require("@/assets/Pohjanmaa/Mustasaari.png"),
@@ -3200,7 +3200,7 @@ export const regions = [
       },
       {
         municipality: "Närpiö",
-        areaCode: "KU545",
+        municipalityCode: "KU545",
         lat: 62.4779756,
         lon: 21.336676,
         url: require("@/assets/Pohjanmaa/Närpiö.png"),
@@ -3213,7 +3213,7 @@ export const regions = [
       },
       {
         municipality: "Pedersöre",
-        areaCode: "KU599",
+        municipalityCode: "KU599",
         lat: 63.5407579,
         lon: 23.0452112,
         url: require("@/assets/Pohjanmaa/Pedersöre.png"),
@@ -3226,7 +3226,7 @@ export const regions = [
       },
       {
         municipality: "Pietarsaari",
-        areaCode: "KU598",
+        municipalityCode: "KU598",
         lat: 63.6744703,
         lon: 22.6911873,
         url: require("@/assets/Pohjanmaa/Pietarsaari.png"),
@@ -3239,7 +3239,7 @@ export const regions = [
       },
       {
         municipality: "Uusikaarlepyy",
-        areaCode: "KU893",
+        municipalityCode: "KU893",
         lat: 63.5222473,
         lon: 22.5284347,
         url: require("@/assets/Pohjanmaa/Uusikaarlepyy.png"),
@@ -3252,7 +3252,7 @@ export const regions = [
       },
       {
         municipality: "Vaasa",
-        areaCode: "KU905",
+        municipalityCode: "KU905",
         lat: 63.0957722,
         lon: 21.6159187,
         url: require("@/assets/Pohjanmaa/Vaasa.png"),
@@ -3265,7 +3265,7 @@ export const regions = [
       },
       {
         municipality: "Vöyri",
-        areaCode: "KU946",
+        municipalityCode: "KU946",
         lat: 63.1304959,
         lon: 22.250699,
         url: require("@/assets/Pohjanmaa/Vöyri.png"),
@@ -3470,7 +3470,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Heinävesi",
-        areaCode: "KU090",
+        municipalityCode: "KU090",
         lat: 62.4263207,
         lon: 28.6329185,
         url: require("@/assets/Pohjois-Karjala/Heinävesi.png"),
@@ -3483,7 +3483,7 @@ export const regions = [
       },
       {
         municipality: "Ilomantsi",
-        areaCode: "KU146",
+        municipalityCode: "KU146",
         lat: 62.6730588,
         lon: 30.9322642,
         url: require("@/assets/Pohjois-Karjala/Ilomantsi.png"),
@@ -3496,7 +3496,7 @@ export const regions = [
       },
       {
         municipality: "Joensuu",
-        areaCode: "KU167",
+        municipalityCode: "KU167",
         lat: 62.6005753,
         lon: 29.7622128,
         url: require("@/assets/Pohjois-Karjala/Joensuu.png"),
@@ -3509,7 +3509,7 @@ export const regions = [
       },
       {
         municipality: "Juuka",
-        areaCode: "KU176",
+        municipalityCode: "KU176",
         lat: 63.2412699,
         lon: 29.2537501,
         url: require("@/assets/Pohjois-Karjala/Juuka.png"),
@@ -3522,7 +3522,7 @@ export const regions = [
       },
       {
         municipality: "Kitee",
-        areaCode: "KU260",
+        municipalityCode: "KU260",
         lat: 62.1001947,
         lon: 30.1356168,
         url: require("@/assets/Pohjois-Karjala/Kitee.png"),
@@ -3535,7 +3535,7 @@ export const regions = [
       },
       {
         municipality: "Kontiolahti",
-        areaCode: "KU276",
+        municipalityCode: "KU276",
         lat: 62.766667,
         lon: 29.85,
         url: require("@/assets/Pohjois-Karjala/Kontiolahti.png"),
@@ -3548,7 +3548,7 @@ export const regions = [
       },
       {
         municipality: "Lieksa",
-        areaCode: "KU422",
+        municipalityCode: "KU422",
         lat: 63.3178213,
         lon: 30.0191312,
         url: require("@/assets/Pohjois-Karjala/Lieksa.png"),
@@ -3561,7 +3561,7 @@ export const regions = [
       },
       {
         municipality: "Liperi",
-        areaCode: "KU426",
+        municipalityCode: "KU426",
         lat: 62.5314503,
         lon: 29.3872024,
         url: require("@/assets/Pohjois-Karjala/Liperi.png"),
@@ -3573,7 +3573,7 @@ export const regions = [
       },
       {
         municipality: "Nurmes",
-        areaCode: "KU541",
+        municipalityCode: "KU541",
         lat: 63.5422079,
         lon: 29.14101,
         url: require("@/assets/Pohjois-Karjala/Nurmes.png"),
@@ -3586,7 +3586,7 @@ export const regions = [
       },
       {
         municipality: "Outokumpu",
-        areaCode: "KU309",
+        municipalityCode: "KU309",
         lat: 62.7255326,
         lon: 29.0186972,
         url: require("@/assets/Pohjois-Karjala/Outokumpu.png"),
@@ -3599,7 +3599,7 @@ export const regions = [
       },
       {
         municipality: "Polvijärvi",
-        areaCode: "KU607",
+        municipalityCode: "KU607",
         lat: 62.8545083,
         lon: 29.3669331,
         url: require("@/assets/Pohjois-Karjala/Polvijärvi.png"),
@@ -3612,7 +3612,7 @@ export const regions = [
       },
       {
         municipality: "Rääkkylä",
-        areaCode: "KU707",
+        municipalityCode: "KU707",
         lat: 62.3143267,
         lon: 29.6275617,
         url: require("@/assets/Pohjois-Karjala/Rääkkylä.png"),
@@ -3625,7 +3625,7 @@ export const regions = [
       },
       {
         municipality: "Tohmajärvi",
-        areaCode: "KU848",
+        municipalityCode: "KU848",
         lat: 62.2259448,
         lon: 30.3335512,
         url: require("@/assets/Pohjois-Karjala/Tohmajärvi.png"),
@@ -3735,7 +3735,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Alavieska",
-        areaCode: "KU009",
+        municipalityCode: "KU009",
         lat: 64.1701074,
         lon: 24.2991417,
         url: require("@/assets/Pohjois-Pohjanmaa/Alavieska.png"),
@@ -3748,7 +3748,7 @@ export const regions = [
       },
       {
         municipality: "Haapajärvi",
-        areaCode: "KU069",
+        municipalityCode: "KU069",
         lat: 63.7514785,
         lon: 25.3134586,
         url: require("@/assets/Pohjois-Pohjanmaa/Haapajärvi.png"),
@@ -3761,7 +3761,7 @@ export const regions = [
       },
       {
         municipality: "Haapavesi",
-        areaCode: "KU071",
+        municipalityCode: "KU071",
         lat: 64.1378737,
         lon: 25.3658176,
         url: require("@/assets/Pohjois-Pohjanmaa/Haapavesi.png"),
@@ -3774,7 +3774,7 @@ export const regions = [
       },
       {
         municipality: "Hailuoto",
-        areaCode: "KU072",
+        municipalityCode: "KU072",
         lat: 65.0137795,
         lon: 24.7292318,
         url: require("@/assets/Pohjois-Pohjanmaa/Hailuoto.png"),
@@ -3786,7 +3786,7 @@ export const regions = [
       },
       {
         municipality: "Kalajoki",
-        areaCode: "KU208",
+        municipalityCode: "KU208",
         lat: 64.260017,
         lon: 23.950545,
         url: require("@/assets/Pohjois-Pohjanmaa/Kalajoki.png"),
@@ -3798,7 +3798,7 @@ export const regions = [
       },
       {
         municipality: "Kärsämäki",
-        areaCode: "KU317",
+        municipalityCode: "KU317",
         lat: 63.979723,
         lon: 25.7588484,
         url: require("@/assets/Pohjois-Pohjanmaa/Kärsämäki.png"),
@@ -3811,7 +3811,7 @@ export const regions = [
       },
       {
         municipality: "Kempele",
-        areaCode: "KU244",
+        municipalityCode: "KU244",
         lat: 64.91245,
         lon: 25.5108223,
         url: require("@/assets/Pohjois-Pohjanmaa/Kempele.png"),
@@ -3824,7 +3824,7 @@ export const regions = [
       },
       {
         municipality: "Ii",
-        areaCode: "KU139",
+        municipalityCode: "KU139",
         lat: 65.3218756,
         lon: 25.3716223,
         url: require("@/assets/Pohjois-Pohjanmaa/Ii.png"),
@@ -3837,7 +3837,7 @@ export const regions = [
       },
       {
         municipality: "Kuusamo",
-        areaCode: "KU305",
+        municipalityCode: "KU305",
         lat: 65.9645637,
         lon: 29.1883283,
         url: require("@/assets/Pohjois-Pohjanmaa/Kuusamo.png"),
@@ -3850,7 +3850,7 @@ export const regions = [
       },
       {
         municipality: "Liminka",
-        areaCode: "KU425",
+        municipalityCode: "KU425",
         lat: 64.8106448,
         lon: 25.4084842,
         url: require("@/assets/Pohjois-Pohjanmaa/Liminka.png"),
@@ -3863,7 +3863,7 @@ export const regions = [
       },
       {
         municipality: "Lumijoki",
-        areaCode: "KU436",
+        municipalityCode: "KU436",
         lat: 64.8384044,
         lon: 25.1868431,
         url: require("@/assets/Pohjois-Pohjanmaa/Lumijoki.png"),
@@ -3876,7 +3876,7 @@ export const regions = [
       },
       {
         municipality: "Merijärvi",
-        areaCode: "KU483",
+        municipalityCode: "KU483",
         lat: 64.2926104,
         lon: 24.4372571,
         url: require("@/assets/Pohjois-Pohjanmaa/Merijärvi.png"),
@@ -3889,7 +3889,7 @@ export const regions = [
       },
       {
         municipality: "Muhos",
-        areaCode: "KU494",
+        municipalityCode: "KU494",
         lat: 64.8063089,
         lon: 25.9953642,
         url: require("@/assets/Pohjois-Pohjanmaa/Muhos.png"),
@@ -3902,7 +3902,7 @@ export const regions = [
       },
       {
         municipality: "Nivala",
-        areaCode: "KU535",
+        municipalityCode: "KU535",
         lat: 63.9289531,
         lon: 24.9612586,
         url: require("@/assets/Pohjois-Pohjanmaa/Nivala.png"),
@@ -3914,7 +3914,7 @@ export const regions = [
       },
       {
         municipality: "Oulainen",
-        areaCode: "KU563",
+        municipalityCode: "KU563",
         lat: 64.2667732,
         lon: 24.8000331,
         url: require("@/assets/Pohjois-Pohjanmaa/Oulainen.png"),
@@ -3926,7 +3926,7 @@ export const regions = [
       },
       {
         municipality: "Oulu",
-        areaCode: "KU564",
+        municipalityCode: "KU564",
         lat: 65.0118734,
         lon: 25.4716809,
         url: require("@/assets/Pohjois-Pohjanmaa/Oulu.png"),
@@ -3939,7 +3939,7 @@ export const regions = [
       },
       {
         municipality: "Pudasjärvi",
-        areaCode: "KU615",
+        municipalityCode: "KU615",
         lat: 65.360401,
         lon: 26.9984899,
         url: require("@/assets/Pohjois-Pohjanmaa/Pudasjärvi.png"),
@@ -3952,7 +3952,7 @@ export const regions = [
       },
       {
         municipality: "Pyhäjärvi",
-        areaCode: "KU626",
+        municipalityCode: "KU626",
         lat: 63.6809739,
         lon: 25.9733504,
         url: require("@/assets/Pohjois-Pohjanmaa/Pyhäjärvi.png"),
@@ -3965,7 +3965,7 @@ export const regions = [
       },
       {
         municipality: "Pyhäjoki",
-        areaCode: "KU625",
+        municipalityCode: "KU625",
         lat: 64.4663193,
         lon: 24.2550528,
         url: require("@/assets/Pohjois-Pohjanmaa/Pyhäjoki.png"),
@@ -3978,7 +3978,7 @@ export const regions = [
       },
       {
         municipality: "Pyhäntä",
-        areaCode: "KU630",
+        municipalityCode: "KU630",
         lat: 64.096296,
         lon: 26.3316485,
         url: require("@/assets/Pohjois-Pohjanmaa/Pyhäntä.png"),
@@ -3991,7 +3991,7 @@ export const regions = [
       },
       {
         municipality: "Raahe",
-        areaCode: "KU678",
+        municipalityCode: "KU678",
         lat: 64.6795905,
         lon: 24.4709593,
         url: require("@/assets/Pohjois-Pohjanmaa/Raahe.png"),
@@ -4004,7 +4004,7 @@ export const regions = [
       },
       {
         municipality: "Reisjärvi",
-        areaCode: "KU691",
+        municipalityCode: "KU691",
         lat: 63.6041324,
         lon: 24.9355989,
         url: require("@/assets/Pohjois-Pohjanmaa/Reisjärvi.png"),
@@ -4016,7 +4016,7 @@ export const regions = [
       },
       {
         municipality: "Sievi",
-        areaCode: "KU746",
+        municipalityCode: "KU746",
         lat: 63.9082625,
         lon: 24.5159868,
         url: require("@/assets/Pohjois-Pohjanmaa/Sievi.png"),
@@ -4029,7 +4029,7 @@ export const regions = [
       },
       {
         municipality: "Siikajoki",
-        areaCode: "KU748",
+        municipalityCode: "KU748",
         lat: 64.7119675,
         lon: 24.9791611,
         url: require("@/assets/Pohjois-Pohjanmaa/Siikajoki.png"),
@@ -4042,7 +4042,7 @@ export const regions = [
       },
       {
         municipality: "Siikalatva",
-        areaCode: "KU791",
+        municipalityCode: "KU791",
         lat: 64.3119466,
         lon: 26.0790042,
         url: require("@/assets/Pohjois-Pohjanmaa/Siikalatva.png"),
@@ -4055,7 +4055,7 @@ export const regions = [
       },
       {
         municipality: "Taivalkoski",
-        areaCode: "KU832",
+        municipalityCode: "KU832",
         lat: 65.5752942,
         lon: 28.2425866,
         url: require("@/assets/Pohjois-Pohjanmaa/Taivalkoski.png"),
@@ -4068,7 +4068,7 @@ export const regions = [
       },
       {
         municipality: "Tyrnävä",
-        areaCode: "KU859",
+        municipalityCode: "KU859",
         lat: 64.7621368,
         lon: 25.6498871,
         url: require("@/assets/Pohjois-Pohjanmaa/Tyrnävä.png"),
@@ -4081,7 +4081,7 @@ export const regions = [
       },
       {
         municipality: "Utajärvi",
-        areaCode: "KU889",
+        municipalityCode: "KU889",
         lat: 64.7613984,
         lon: 26.416907,
         url: require("@/assets/Pohjois-Pohjanmaa/Utajärvi.png"),
@@ -4094,7 +4094,7 @@ export const regions = [
       },
       {
         municipality: "Vaala",
-        areaCode: "KU785",
+        municipalityCode: "KU785",
         lat: 64.5565274,
         lon: 26.8466518,
         url: require("@/assets/Pohjois-Pohjanmaa/Vaala.png"),
@@ -4107,7 +4107,7 @@ export const regions = [
       },
       {
         municipality: "Ylivieska",
-        areaCode: "KU977",
+        municipalityCode: "KU977",
         lat: 64.0728903,
         lon: 24.5327326,
         url: require("@/assets/Pohjois-Pohjanmaa/Ylivieska.png"),
@@ -4287,7 +4287,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Iisalmi",
-        areaCode: "KU140",
+        municipalityCode: "KU140",
         lat: 63.5567679,
         lon: 27.1892281,
         url: require("@/assets/Pohjois-Savo/Iisalmi.png"),
@@ -4300,7 +4300,7 @@ export const regions = [
       },
       {
         municipality: "Joroinen",
-        areaCode: "KU171",
+        municipalityCode: "KU171",
         lat: 62.1782081,
         lon: 27.8284927,
         url: require("@/assets/Pohjois-Savo/Joroinen.png"),
@@ -4313,7 +4313,7 @@ export const regions = [
       },
       {
         municipality: "Kaavi",
-        areaCode: "KU204",
+        municipalityCode: "KU204",
         lat: 62.9757575,
         lon: 28.4801127,
         url: require("@/assets/Pohjois-Savo/Kaavi.png"),
@@ -4326,7 +4326,7 @@ export const regions = [
       },
       {
         municipality: "Keitele",
-        areaCode: "KU239",
+        municipalityCode: "KU239",
         lat: 63.1781571,
         lon: 26.3396637,
         url: require("@/assets/Pohjois-Savo/Keitele.png"),
@@ -4339,7 +4339,7 @@ export const regions = [
       },
       {
         municipality: "Kiuruvesi",
-        areaCode: "KU263",
+        municipalityCode: "KU263",
         lat: 63.6527545,
         lon: 26.6196528,
         url: require("@/assets/Pohjois-Savo/Kiuruvesi.png"),
@@ -4352,7 +4352,7 @@ export const regions = [
       },
       {
         municipality: "Kuopio",
-        areaCode: "KU297",
+        municipalityCode: "KU297",
         lat: 62.8924601,
         lon: 27.6781839,
         url: require("@/assets/Pohjois-Savo/Kuopio.png"),
@@ -4365,7 +4365,7 @@ export const regions = [
       },
       {
         municipality: "Lapinlahti",
-        areaCode: "KU402",
+        municipalityCode: "KU402",
         lat: 63.3638712,
         lon: 27.3984804,
         url: require("@/assets/Pohjois-Savo/Lapinlahti.png"),
@@ -4378,7 +4378,7 @@ export const regions = [
       },
       {
         municipality: "Leppävirta",
-        areaCode: "KU420",
+        municipalityCode: "KU420",
         lat: 62.4894313,
         lon: 27.7860813,
         url: require("@/assets/Pohjois-Savo/Leppävirta.png"),
@@ -4391,7 +4391,7 @@ export const regions = [
       },
       {
         municipality: "Pielavesi",
-        areaCode: "KU595",
+        municipalityCode: "KU595",
         lat: 63.2333327,
         lon: 26.7500075,
         url: require("@/assets/Pohjois-Savo/Pielavesi.png"),
@@ -4404,7 +4404,7 @@ export const regions = [
       },
       {
         municipality: "Rautalampi",
-        areaCode: "KU686",
+        municipalityCode: "KU686",
         lat: 62.6206984,
         lon: 26.8384638,
         url: require("@/assets/Pohjois-Savo/Rautalampi.png"),
@@ -4417,7 +4417,7 @@ export const regions = [
       },
       {
         municipality: "Rautavaara",
-        areaCode: "KU687",
+        municipalityCode: "KU687",
         lat: 63.4940502,
         lon: 28.2984908,
         url: require("@/assets/Pohjois-Savo/Rautavaara.png"),
@@ -4430,7 +4430,7 @@ export const regions = [
       },
       {
         municipality: "Siilinjärvi",
-        areaCode: "KU749",
+        municipalityCode: "KU749",
         lat: 63.0743109,
         lon: 27.6623456,
         url: require("@/assets/Pohjois-Savo/Siilinjärvi.png"),
@@ -4443,7 +4443,7 @@ export const regions = [
       },
       {
         municipality: "Sonkajärvi",
-        areaCode: "KU762",
+        municipalityCode: "KU762",
         lat: 63.66907,
         lon: 27.5232488,
         url: require("@/assets/Pohjois-Savo/Sonkajärvi.png"),
@@ -4456,7 +4456,7 @@ export const regions = [
       },
       {
         municipality: "Suonenjoki",
-        areaCode: "KU778",
+        municipalityCode: "KU778",
         lat: 62.6241926,
         lon: 27.1245609,
         url: require("@/assets/Pohjois-Savo/Suonenjoki.png"),
@@ -4469,7 +4469,7 @@ export const regions = [
       },
       {
         municipality: "Tervo",
-        areaCode: "KU844",
+        municipalityCode: "KU844",
         lat: 62.9563657,
         lon: 26.7604718,
         url: require("@/assets/Pohjois-Savo/Tervo.png"),
@@ -4482,7 +4482,7 @@ export const regions = [
       },
       {
         municipality: "Tuusniemi",
-        areaCode: "KU857",
+        municipalityCode: "KU857",
         lat: 62.8129715,
         lon: 28.473989,
         url: require("@/assets/Pohjois-Savo/Tuusniemi.png"),
@@ -4495,7 +4495,7 @@ export const regions = [
       },
       {
         municipality: "Varkaus",
-        areaCode: "KU915",
+        municipalityCode: "KU915",
         lat: 62.3176377,
         lon: 27.8681227,
         url: require("@/assets/Pohjois-Savo/Varkaus.png"),
@@ -4508,7 +4508,7 @@ export const regions = [
       },
       {
         municipality: "Vesanto",
-        areaCode: "KU921",
+        municipalityCode: "KU921",
         lat: 62.9302543,
         lon: 26.4089399,
         url: require("@/assets/Pohjois-Savo/Vesanto.png"),
@@ -4520,7 +4520,7 @@ export const regions = [
       },
       {
         municipality: "Vieremä",
-        areaCode: "KU925",
+        municipalityCode: "KU925",
         lat: 63.75,
         lon: 27.016667,
         url: require("@/assets/Pohjois-Savo/Vieremä.png"),
@@ -4617,7 +4617,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Eura",
-        areaCode: "KU050",
+        municipalityCode: "KU050",
         lat: 61.1304007,
         lon: 22.1302126,
         url: require("@/assets/Satakunta/Eura.png"),
@@ -4630,7 +4630,7 @@ export const regions = [
       },
       {
         municipality: "Harjavalta",
-        areaCode: "KU079",
+        municipalityCode: "KU079",
         lat: 61.3125216,
         lon: 22.1357413,
         url: require("@/assets/Satakunta/Harjavalta.png"),
@@ -4643,7 +4643,7 @@ export const regions = [
       },
       {
         municipality: "Huittinen",
-        areaCode: "KU102",
+        municipalityCode: "KU102",
         lat: 61.1770887,
         lon: 22.6990511,
         url: require("@/assets/Satakunta/Huittinen.png"),
@@ -4656,7 +4656,7 @@ export const regions = [
       },
       {
         municipality: "Jämijärvi",
-        areaCode: "KU181",
+        municipalityCode: "KU181",
         lat: 61.8212196,
         lon: 22.6970217,
         url: require("@/assets/Satakunta/Jämijärvi.png"),
@@ -4669,7 +4669,7 @@ export const regions = [
       },
       {
         municipality: "Kankaanpää",
-        areaCode: "KU214",
+        municipalityCode: "KU214",
         lat: 61.8027147,
         lon: 22.3965338,
         url: require("@/assets/Satakunta/Kankaanpää.png"),
@@ -4682,7 +4682,7 @@ export const regions = [
       },
       {
         municipality: "Karvia",
-        areaCode: "KU230",
+        municipalityCode: "KU230",
         lat: 62.1373063,
         lon: 22.5603265,
         url: require("@/assets/Satakunta/Karvia.png"),
@@ -4695,7 +4695,7 @@ export const regions = [
       },
       {
         municipality: "Kokemäki",
-        areaCode: "KU271",
+        municipalityCode: "KU271",
         lat: 61.2513342,
         lon: 22.3492421,
         url: require("@/assets/Satakunta/Kokemäki.png"),
@@ -4708,7 +4708,7 @@ export const regions = [
       },
       {
         municipality: "Säkylä",
-        areaCode: "KU783",
+        municipalityCode: "KU783",
         lat: 61.0460137,
         lon: 22.3430918,
         url: require("@/assets/Satakunta/Säkylä.png"),
@@ -4721,7 +4721,7 @@ export const regions = [
       },
       {
         municipality: "Eurajoki",
-        areaCode: "KU051",
+        municipalityCode: "KU051",
         lat: 61.2018184,
         lon: 21.7296943,
         url: require("@/assets/Satakunta/Eurajoki.png"),
@@ -4733,7 +4733,7 @@ export const regions = [
       },
       {
         municipality: "Merikarvia",
-        areaCode: "KU484",
+        municipalityCode: "KU484",
         lat: 61.8590135,
         lon: 21.5032079,
         url: require("@/assets/Satakunta/Merikarvia.png"),
@@ -4746,7 +4746,7 @@ export const regions = [
       },
       {
         municipality: "Nakkila",
-        areaCode: "KU531",
+        municipalityCode: "KU531",
         lat: 61.3664981,
         lon: 22.0000209,
         url: require("@/assets/Satakunta/Nakkila.png"),
@@ -4759,7 +4759,7 @@ export const regions = [
       },
       {
         municipality: "Pomarkku",
-        areaCode: "KU608",
+        municipalityCode: "KU608",
         lat: 61.6935412,
         lon: 22.0083959,
         url: require("@/assets/Satakunta/Pomarkku.png"),
@@ -4771,7 +4771,7 @@ export const regions = [
       },
       {
         municipality: "Pori",
-        areaCode: "KU609",
+        municipalityCode: "KU609",
         lat: 61.4866126,
         lon: 21.7972071,
         url: require("@/assets/Satakunta/Pori.png"),
@@ -4784,7 +4784,7 @@ export const regions = [
       },
       {
         municipality: "Rauma",
-        areaCode: "KU684",
+        municipalityCode: "KU684",
         lat: 61.1289148,
         lon: 21.5039401,
         url: require("@/assets/Satakunta/Rauma.png"),
@@ -4797,7 +4797,7 @@ export const regions = [
       },
       {
         municipality: "Siikainen",
-        areaCode: "KU747",
+        municipalityCode: "KU747",
         lat: 61.8766739,
         lon: 21.8216558,
         url: require("@/assets/Satakunta/Siikainen.png"),
@@ -4810,7 +4810,7 @@ export const regions = [
       },
       {
         municipality: "Ulvila",
-        areaCode: "KU886",
+        municipalityCode: "KU886",
         lat: 61.4333298,
         lon: 21.8833199,
         url: require("@/assets/Satakunta/Ulvila.png"),
@@ -4937,7 +4937,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Askola",
-        areaCode: "KU018",
+        municipalityCode: "KU018",
         lat: 60.5271593,
         lon: 25.6000156,
         url: require("@/assets/Uusimaa/Askola.png"),
@@ -4950,7 +4950,7 @@ export const regions = [
       },
       {
         municipality: "Espoo",
-        areaCode: "KU049",
+        municipalityCode: "KU049",
         lat: 60.2047672,
         lon: 24.6568435,
         url: require("@/assets/Uusimaa/Espoo.png"),
@@ -4963,7 +4963,7 @@ export const regions = [
       },
       {
         municipality: "Hanko",
-        areaCode: "KU078",
+        municipalityCode: "KU078",
         lat: 59.8228008,
         lon: 22.9695005,
         url: require("@/assets/Uusimaa/Hanko.png"),
@@ -4976,7 +4976,7 @@ export const regions = [
       },
       {
         municipality: "Helsinki",
-        areaCode: "KU091",
+        municipalityCode: "KU091",
         lat: 60.1674881,
         lon: 24.9427473,
         url: require("@/assets/Uusimaa/Helsinki.png"),
@@ -4989,7 +4989,7 @@ export const regions = [
       },
       {
         municipality: "Hyvinkää",
-        areaCode: "KU106",
+        municipalityCode: "KU106",
         lat: 60.6335719,
         lon: 24.8695328,
         url: require("@/assets/Uusimaa/Hyvinkää.png"),
@@ -5002,7 +5002,7 @@ export const regions = [
       },
       {
         municipality: "Inkoo",
-        areaCode: "KU149",
+        municipalityCode: "KU149",
         lat: 60.0461105,
         lon: 24.0042086,
         url: require("@/assets/Uusimaa/Inkoo.png"),
@@ -5015,7 +5015,7 @@ export const regions = [
       },
       {
         municipality: "Järvenpää",
-        areaCode: "KU186",
+        municipalityCode: "KU186",
         lat: 60.4743601,
         lon: 25.0925118,
         url: require("@/assets/Uusimaa/Järvenpää.png"),
@@ -5027,7 +5027,7 @@ export const regions = [
       },
       {
         municipality: "Karkkila",
-        areaCode: "KU224",
+        municipalityCode: "KU224",
         lat: 60.5342609,
         lon: 24.2105252,
         url: require("@/assets/Uusimaa/Karkkila.png"),
@@ -5040,7 +5040,7 @@ export const regions = [
       },
       {
         municipality: "Kauniainen",
-        areaCode: "KU235",
+        municipalityCode: "KU235",
         lat: 60.212532,
         lon: 24.7285548,
         url: require("@/assets/Uusimaa/Kauniainen.png"),
@@ -5053,7 +5053,7 @@ export const regions = [
       },
       {
         municipality: "Kerava",
-        areaCode: "KU245",
+        municipalityCode: "KU245",
         lat: 60.4034398,
         lon: 25.1041013,
         url: require("@/assets/Uusimaa/Kerava.png"),
@@ -5066,7 +5066,7 @@ export const regions = [
       },
       {
         municipality: "Kirkkonummi",
-        areaCode: "KU257",
+        municipalityCode: "KU257",
         lat: 60.1227857,
         lon: 24.4406694,
         url: require("@/assets/Uusimaa/Kirkkonummi.png"),
@@ -5079,7 +5079,7 @@ export const regions = [
       },
       {
         municipality: "Lapinjärvi",
-        areaCode: "KU407",
+        municipalityCode: "KU407",
         lat: 60.6273036,
         lon: 26.1981468,
         url: require("@/assets/Uusimaa/Lapinjärvi.png"),
@@ -5092,7 +5092,7 @@ export const regions = [
       },
       {
         municipality: "Lohja",
-        areaCode: "KU444",
+        municipalityCode: "KU444",
         lat: 60.2526036,
         lon: 24.0684575,
         url: require("@/assets/Uusimaa/Lohja.png"),
@@ -5105,7 +5105,7 @@ export const regions = [
       },
       {
         municipality: "Loviisa",
-        areaCode: "KU434",
+        municipalityCode: "KU434",
         lat: 60.4564226,
         lon: 26.2271433,
         url: require("@/assets/Uusimaa/Loviisa.png"),
@@ -5118,7 +5118,7 @@ export const regions = [
       },
       {
         municipality: "Mäntsälä",
-        areaCode: "KU505",
+        municipalityCode: "KU505",
         lat: 60.6339269,
         lon: 25.3188193,
         url: require("@/assets/Uusimaa/Mäntsälä.png"),
@@ -5131,7 +5131,7 @@ export const regions = [
       },
       {
         municipality: "Nurmijärvi",
-        areaCode: "KU543",
+        municipalityCode: "KU543",
         lat: 60.4628627,
         lon: 24.8051725,
         url: require("@/assets/Uusimaa/Nurmijärvi.png"),
@@ -5144,7 +5144,7 @@ export const regions = [
       },
       {
         municipality: "Pornainen",
-        areaCode: "KU611",
+        municipalityCode: "KU611",
         lat: 60.4756432,
         lon: 25.3745932,
         url: require("@/assets/Uusimaa/Pornainen.png"),
@@ -5157,7 +5157,7 @@ export const regions = [
       },
       {
         municipality: "Porvoo",
-        areaCode: "KU638",
+        municipalityCode: "KU638",
         lat: 60.3953913,
         lon: 25.6604862,
         url: require("@/assets/Uusimaa/Porvoo.png"),
@@ -5169,7 +5169,7 @@ export const regions = [
       },
       {
         municipality: "Pukkila",
-        areaCode: "KU616",
+        municipalityCode: "KU616",
         lat: 60.6455948,
         lon: 25.581976,
         url: require("@/assets/Uusimaa/Pukkila.png"),
@@ -5181,7 +5181,7 @@ export const regions = [
       },
       {
         municipality: "Raasepori",
-        areaCode: "KU710",
+        municipalityCode: "KU710",
         lat: 59.9285263,
         lon: 23.5219234,
         url: require("@/assets/Uusimaa/Raasepori.png"),
@@ -5194,7 +5194,7 @@ export const regions = [
       },
       {
         municipality: "Sipoo",
-        areaCode: "KU753",
+        municipalityCode: "KU753",
         lat: 60.376199,
         lon: 25.2651428,
         url: require("@/assets/Uusimaa/Sipoo.png"),
@@ -5207,7 +5207,7 @@ export const regions = [
       },
       {
         municipality: "Siuntio",
-        areaCode: "KU755",
+        municipalityCode: "KU755",
         lat: 60.1378436,
         lon: 24.2266417,
         url: require("@/assets/Uusimaa/Siuntio.png"),
@@ -5220,7 +5220,7 @@ export const regions = [
       },
       {
         municipality: "Tuusula",
-        areaCode: "KU858",
+        municipalityCode: "KU858",
         lat: 60.4017496,
         lon: 25.0280695,
         url: require("@/assets/Uusimaa/Tuusula.png"),
@@ -5233,7 +5233,7 @@ export const regions = [
       },
       {
         municipality: "Vantaa",
-        areaCode: "KU092",
+        municipalityCode: "KU092",
         lat: 60.2933337,
         lon: 25.0407809,
         url: require("@/assets/Uusimaa/Vantaa.png"),
@@ -5246,7 +5246,7 @@ export const regions = [
       },
       {
         municipality: "Vihti",
-        areaCode: "KU927",
+        municipalityCode: "KU927",
         lat: 60.4168803,
         lon: 24.320558,
         url: require("@/assets/Uusimaa/Vihti.png"),
@@ -5403,7 +5403,7 @@ export const regions = [
     municipalities: [
       {
         municipality: "Masku",
-        areaCode: "KU481",
+        municipalityCode: "KU481",
         lat: 60.566667,
         lon: 22.1,
         url: require("@/assets/Varsinais-Suomi/Masku.png"),
@@ -5416,7 +5416,7 @@ export const regions = [
       },
       {
         municipality: "Aura",
-        areaCode: "KU019",
+        municipalityCode: "KU019",
         lat: 60.6008554,
         lon: 22.5481189,
         url: require("@/assets/Varsinais-Suomi/Aura.png"),
@@ -5429,7 +5429,7 @@ export const regions = [
       },
       {
         municipality: "Kemiönsaari",
-        areaCode: "KU322",
+        municipalityCode: "KU322",
         lat: 59.8820726,
         lon: 22.4033927,
         url: require("@/assets/Varsinais-Suomi/Dragsfjärd.png"),
@@ -5441,7 +5441,7 @@ export const regions = [
       },
       {
         municipality: "Salo",
-        areaCode: "KU734",
+        municipalityCode: "KU734",
         lat: 60.3846716,
         lon: 23.1286377,
         url: require("@/assets/Varsinais-Suomi/Salo.png"),
@@ -5454,7 +5454,7 @@ export const regions = [
       },
       {
         municipality: "Koski Tl",
-        areaCode: "KU284",
+        municipalityCode: "KU284",
         lat: 60.6530502,
         lon: 23.1406187,
         url: require("@/assets/Varsinais-Suomi/Koski-Tl.png"),
@@ -5467,7 +5467,7 @@ export const regions = [
       },
       {
         municipality: "Kustavi",
-        areaCode: "KU304",
+        municipalityCode: "KU304",
         lat: 60.5458493,
         lon: 21.3558051,
         url: require("@/assets/Varsinais-Suomi/Kustavi.png"),
@@ -5480,7 +5480,7 @@ export const regions = [
       },
       {
         municipality: "Laitila",
-        areaCode: "KU400",
+        municipalityCode: "KU400",
         lat: 60.8801155,
         lon: 21.6926352,
         url: require("@/assets/Varsinais-Suomi/Laitila.png"),
@@ -5493,7 +5493,7 @@ export const regions = [
       },
       {
         municipality: "Lieto",
-        areaCode: "KU423",
+        municipalityCode: "KU423",
         lat: 60.5054982,
         lon: 22.4584171,
         url: require("@/assets/Varsinais-Suomi/Lieto.png"),
@@ -5506,7 +5506,7 @@ export const regions = [
       },
       {
         municipality: "Loimaa",
-        areaCode: "KU430",
+        municipalityCode: "KU430",
         lat: 60.8472453,
         lon: 23.0513931,
         url: require("@/assets/Varsinais-Suomi/Loimaa.png"),
@@ -5519,7 +5519,7 @@ export const regions = [
       },
       {
         municipality: "Marttila",
-        areaCode: "KU480",
+        municipalityCode: "KU480",
         lat: 60.585109,
         lon: 22.898546,
         url: require("@/assets/Varsinais-Suomi/Marttila.png"),
@@ -5532,7 +5532,7 @@ export const regions = [
       },
       {
         municipality: "Mynämäki",
-        areaCode: "KU503",
+        municipalityCode: "KU503",
         lat: 60.67889,
         lon: 21.9861075,
         url: require("@/assets/Varsinais-Suomi/Mynämäki.png"),
@@ -5544,7 +5544,7 @@ export const regions = [
       },
       {
         municipality: "Naantali",
-        areaCode: "KU529",
+        municipalityCode: "KU529",
         lat: 60.4688687,
         lon: 22.0291149,
         url: require("@/assets/Varsinais-Suomi/Naantali.png"),
@@ -5557,7 +5557,7 @@ export const regions = [
       },
       {
         municipality: "Parainen",
-        areaCode: "KU445",
+        municipalityCode: "KU445",
         lat: 60.3009089,
         lon: 22.302078,
         url: require("@/assets/Varsinais-Suomi/Parainen.png"),
@@ -5569,7 +5569,7 @@ export const regions = [
       },
       {
         municipality: "Nousiainen",
-        areaCode: "KU538",
+        municipalityCode: "KU538",
         lat: 60.5992408,
         lon: 22.0840745,
         url: require("@/assets/Varsinais-Suomi/Nousiainen.png"),
@@ -5582,7 +5582,7 @@ export const regions = [
       },
       {
         municipality: "Oripää",
-        areaCode: "KU561",
+        municipalityCode: "KU561",
         lat: 60.8555778,
         lon: 22.6945818,
         url: require("@/assets/Varsinais-Suomi/Oripää.png"),
@@ -5595,7 +5595,7 @@ export const regions = [
       },
       {
         municipality: "Paimio",
-        areaCode: "KU577",
+        municipalityCode: "KU577",
         lat: 60.4570244,
         lon: 22.6883278,
         url: require("@/assets/Varsinais-Suomi/Paimio.png"),
@@ -5608,7 +5608,7 @@ export const regions = [
       },
       {
         municipality: "Kaarina",
-        areaCode: "KU202",
+        municipalityCode: "KU202",
         lat: 60.407169,
         lon: 22.3678223,
         url: require("@/assets/Varsinais-Suomi/Kaarina.png"),
@@ -5621,7 +5621,7 @@ export const regions = [
       },
       {
         municipality: "Pöytyä",
-        areaCode: "KU636",
+        municipalityCode: "KU636",
         lat: 60.7409756,
         lon: 22.6282676,
         url: require("@/assets/Varsinais-Suomi/Pöytyä.png"),
@@ -5634,7 +5634,7 @@ export const regions = [
       },
       {
         municipality: "Pyhäranta",
-        areaCode: "KU631",
+        municipalityCode: "KU631",
         lat: 60.94988,
         lon: 21.4426922,
         url: require("@/assets/Varsinais-Suomi/Pyhäranta.png"),
@@ -5647,7 +5647,7 @@ export const regions = [
       },
       {
         municipality: "Raisio",
-        areaCode: "KU680",
+        municipalityCode: "KU680",
         lat: 60.485513,
         lon: 22.1692664,
         url: require("@/assets/Varsinais-Suomi/Raisio.png"),
@@ -5660,7 +5660,7 @@ export const regions = [
       },
       {
         municipality: "Sauvo",
-        areaCode: "KU738",
+        municipalityCode: "KU738",
         lat: 60.3432104,
         lon: 22.6943202,
         url: require("@/assets/Varsinais-Suomi/Sauvo.png"),
@@ -5673,7 +5673,7 @@ export const regions = [
       },
       {
         municipality: "Somero",
-        areaCode: "KU761",
+        municipalityCode: "KU761",
         lat: 60.6299165,
         lon: 23.5139982,
         url: require("@/assets/Varsinais-Suomi/Somero.png"),
@@ -5686,7 +5686,7 @@ export const regions = [
       },
       {
         municipality: "Taivassalo",
-        areaCode: "KU833",
+        municipalityCode: "KU833",
         lat: 60.5619353,
         lon: 21.6132334,
         url: require("@/assets/Varsinais-Suomi/Taivassalo.png"),
@@ -5699,7 +5699,7 @@ export const regions = [
       },
       {
         municipality: "Turku",
-        areaCode: "KU853",
+        municipalityCode: "KU853",
         lat: 60.4517531,
         lon: 22.2670522,
         url: require("@/assets/Varsinais-Suomi/Turku.png"),
@@ -5712,7 +5712,7 @@ export const regions = [
       },
       {
         municipality: "Uusikaupunki",
-        areaCode: "KU895",
+        municipalityCode: "KU895",
         lat: 60.8016507,
         lon: 21.4086143,
         url: require("@/assets/Varsinais-Suomi/Uusikaupunki.png"),
@@ -5724,7 +5724,7 @@ export const regions = [
       },
       {
         municipality: "Rusko",
-        areaCode: "KU704",
+        municipalityCode: "KU704",
         lat: 60.5407302,
         lon: 22.2208801,
         url: require("@/assets/Varsinais-Suomi/Rusko.png"),
@@ -5737,7 +5737,7 @@ export const regions = [
       },
       {
         municipality: "Vehmaa",
-        areaCode: "KU918",
+        municipalityCode: "KU918",
         lat: 60.6830484,
         lon: 21.7056766,
         url: require("@/assets/Varsinais-Suomi/Vehmaa.png"),
