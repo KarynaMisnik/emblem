@@ -1,3 +1,4 @@
+import MunicipalityCard from "@/components/MunicipalityCard";
 import RegionHeader from "@/components/RegionHeader";
 import RegionMap from "@/components/RegionMap";
 import { regions } from "@/data/regions";
@@ -41,6 +42,7 @@ export default function RegionScreen() {
           <RegionMap location={region?.location}></RegionMap>
         </View>
       </View>
+      <MunicipalityCard></MunicipalityCard>
     </ScrollView>
   );
 }
