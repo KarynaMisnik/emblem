@@ -23,6 +23,7 @@ export default function RegionScreen() {
           }}
         >
           <RegionHeader
+            key={region?.regionCode}
             name={region?.name}
             image={region?.image}
             regionDescription={region?.regionDescription}
@@ -42,7 +43,13 @@ export default function RegionScreen() {
           <RegionMap location={region?.location}></RegionMap>
         </View>
       </View>
-      <MunicipalityCard></MunicipalityCard>
+      {region?.municipalities.map((municipality) => (
+        <MunicipalityCard
+          key={municipality.municipalityCode}
+          name={municipality.municipality}
+          code={municipality.municipalityCode}
+        />
+      ))}
     </ScrollView>
   );
 }
