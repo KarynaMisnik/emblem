@@ -43,13 +43,23 @@ export default function RegionScreen() {
           <RegionMap location={region?.location}></RegionMap>
         </View>
       </View>
-      {region?.municipalities.map((municipality) => (
-        <MunicipalityCard
-          key={municipality.municipalityCode}
-          name={municipality.municipality}
-          code={municipality.municipalityCode}
-        />
-      ))}
+      <View
+        style={{
+          flexDirection: "row",
+          justifyContent: "center",
+          flexWrap: "wrap",
+          gap: 8,
+          padding: 8,
+        }}
+      >
+        {region?.municipalities.map((municipality) => (
+          <MunicipalityCard
+            key={municipality.municipalityCode}
+            image={municipality.url}
+            name={municipality.municipality}
+          />
+        ))}
+      </View>
     </ScrollView>
   );
 }
