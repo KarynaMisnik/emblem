@@ -1006,7 +1006,7 @@ export const regions = [
     img: "Kainuu",
     image: require("@/assets/Kainuu/Kainuu.png"),
     alt: "Kainuu region coat of arms",
-    location: "/coat-of-arms/img/Kainuu/kainuu-location.png",
+    location: require("@/assets/Kainuu/kainuu-location.png"),
     locationAlt: "Kainuu location on the map of Finland",
     municipalities: [
       {
@@ -1144,7 +1144,7 @@ export const regions = [
     img: "Kanta-Häme",
     image: require("@/assets/Kanta-Häme/Kanta-Häme.png"),
     alt: "Kanta-Häme region coat of arms",
-    location: "/coat-of-arms/img/Kanta-Häme/kanta-häme-location.png",
+    location: require("@/assets/Kanta-Häme/kanta-häme-location.png"),
     locationAlt: "Kanta-Häme location on the map of Finland",
     municipalities: [
       {
@@ -1363,7 +1363,7 @@ export const regions = [
     img: "Keski-Pohjanmaa",
     image: require("@/assets/Keski-Pohjanmaa/Keski-Pohjanmaa.png"),
     alt: "Keski-Pohjanmaa region coat of arms",
-    location: "/coat-of-arms/img/Keski-Pohjanmaa/keski-pohjanmaa-location.png",
+    location: require("@/assets/Keski-Pohjanmaa/keski-pohjanmaa-location.png"),
     locationAlt: "Keski-Pohjanmaa location on the map of Finland",
     municipalities: [
       {
@@ -1513,7 +1513,7 @@ export const regions = [
     img: "Keski-Suomi",
     image: require("@/assets/Keski-Suomi/Keski-Suomi.png"),
     alt: "Keski-Suomi region coat of arms",
-    location: "/coat-of-arms/img/Keski-Suomi/keski-suomi-location.png",
+    location: require("@/assets/Keski-Suomi/keski-suomi-location.png"),
     locationAlt: "Keski-Suomi location on the map of Finland",
     municipalities: [
       {
@@ -1921,7 +1921,7 @@ export const regions = [
     img: "Kymenlaakso",
     image: require("@/assets/Kymenlaakso/Kymenlaakso.png"),
     alt: "Kymenlaakso region coat of arms",
-    location: "/coat-of-arms/img/Kymenlaakso/kymenlaakso-location.png",
+    location: require("@/assets/Kymenlaakso/kymenlaakso-location.png"),
     locationAlt: "Kymenlaakso location on the map of Finland",
     municipalities: [
       {
@@ -2086,7 +2086,7 @@ export const regions = [
     img: "Lappi",
     image: require("@/assets/Lappi/Lappi.png"),
     alt: "Lappi region coat of arms",
-    location: "/coat-of-arms/img/Lappi/lappi-location.png",
+    location: require("@/assets/Lappi/lappi-location.png"),
     locationAlt: "Lappi location on the map of Finland",
     municipalities: [
       {
@@ -2410,7 +2410,7 @@ export const regions = [
     img: "Päijät-Häme",
     image: require("@/assets/Päijät-Häme/Päijät-Häme.png"),
     alt: "Päijät-Häme region coat of arms",
-    location: "/coat-of-arms/img/Päijät-Häme/päijät-häme-location.png",
+    location: require("@/assets/Päijät-Häme/päijät-häme-location.png"),
     locationAlt: "Päijät-Häme location on the map of Finland",
     municipalities: [
       {
@@ -2581,7 +2581,7 @@ export const regions = [
     img: "Pirkanmaa",
     image: require("@/assets/Pirkanmaa/Pirkanmaa.png"),
     alt: "Pirkanmaa region coat of arms",
-    location: "/coat-of-arms/img/Pirkanmaa/pirkanmaa-location.png",
+    location: require("@/assets/Pirkanmaa/pirkanmaa-location.png"),
     locationAlt: "Pirkanmaa location on the map of Finland",
     municipalities: [
       {
@@ -3092,7 +3092,7 @@ export const regions = [
     img: "Pohjanmaa",
     image: require("@/assets/Pohjanmaa/Pohjanmaa.png"),
     alt: "Pohjanmaa region coat of arms",
-    location: "/coat-of-arms/img/Pohjanmaa/pohjanmaa-location.png",
+    location: require("@/assets/Pohjanmaa/pohjanmaa-location.png"),
     locationAlt: "Pohjanmaa location on the map of Finland",
     municipalities: [
       {
@@ -3465,7 +3465,7 @@ export const regions = [
     img: "Pohjois-Karjala",
     image: require("@/assets/Pohjois-Karjala/Pohjois-Karjala.png"),
     alt: "Pohjois-Karjala region coat of arms",
-    location: "/coat-of-arms/img/Pohjois-Karjala/pohjois-karjala-location.png",
+    location: require("@/assets/Pohjois-Karjala/pohjois-karjala-location.png"),
     locationAlt: "Pohjois-Karjala location on the map of Finland",
     municipalities: [
       {
@@ -3729,8 +3729,7 @@ export const regions = [
     img: "Pohjois-Pohjanmaa",
     image: require("@/assets/Pohjois-Pohjanmaa/Pohjois-Pohjanmaa.png"),
     alt: "Pohjois-Pohjanmaa region coat of arms",
-    location:
-      "/coat-of-arms/img/Pohjois-Pohjanmaa/pohjois-pohjanmaa-location.png",
+    location: require("@/assets/Pohjois-Pohjanmaa/pohjois-pohjanmaa-location.png"),
     locationAlt: "Pohjois-Pohjanmaa location on the map of Finland",
     municipalities: [
       {
@@ -4282,7 +4281,7 @@ export const regions = [
     img: "Pohjois-Savo",
     image: require("@/assets/Pohjois-Savo/Pohjois-Savo.png"),
     alt: "Pohjois-Savo region coat of arms",
-    location: "/coat-of-arms/img/Pohjois-Savo/pohjois-savo-location.png",
+    location: require("@/assets/Pohjois-Savo/pohjois-savo-location.png"),
     locationAlt: "Pohjois-Savo location on the map of Finland",
     municipalities: [
       {
@@ -4612,7 +4611,7 @@ export const regions = [
     img: "Satakunta",
     image: require("@/assets/Satakunta/Satakunta.png"),
     alt: "Satakunta region coat of arms",
-    location: "/coat-of-arms/img/Satakunta/satakunta-location.png",
+    location: require("@/assets/Satakunta/satakunta-location.png"),
     locationAlt: "Satakunta location on the map of Finland",
     municipalities: [
       {
@@ -4932,7 +4931,7 @@ export const regions = [
     img: "Uusimaa",
     image: require("@/assets/Uusimaa/Uusimaa.png"),
     alt: "Uusimaa region coat of arms",
-    location: "/coat-of-arms/img/Uusimaa/uusimaa-location.png",
+    location: require("@/assets/Uusimaa/uusimaa-location.png"),
     locationAlt: "Uusimaa location on the map of Finland",
     municipalities: [
       {
@@ -5398,7 +5397,7 @@ export const regions = [
     img: "Varsinais-Suomi",
     image: require("@/assets/Varsinais-Suomi/Varsinais-Suomi.png"),
     alt: "Varsinais-Suomi region coat of arms",
-    location: "/coat-of-arms/img/Varsinais-Suomi/varsinais-suomi-location.png",
+    location: require("@/assets/Varsinais-Suomi/varsinais-suomi-location.png"),
     locationAlt: "Varsinais-Suomi location on the map of Finland",
     municipalities: [
       {
