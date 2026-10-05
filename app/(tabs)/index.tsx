@@ -4,7 +4,7 @@ import { useGridLayout } from "@/utils/grid";
 import { ScrollView, View } from "react-native";
 
 export default function HomeScreen() {
-  const { gap, padding, cardWidth } = useGridLayout();
+  const { gap, padding } = useGridLayout();
   return (
     <ScrollView
       style={{
@@ -24,7 +24,6 @@ export default function HomeScreen() {
           <RegionCard
             name={region.name}
             image={region.image}
-            cardWidth={cardWidth}
             regionCode={region.regionCode}
           />
         ))}

@@ -2,7 +2,7 @@ import { useGridLayout } from "@/utils/grid";
 import { Image, Pressable, Text, View } from "react-native";
 
 export default function MunicipalityCard({ name, code, image }) {
-  const { gap, padding, cardWidth } = useGridLayout();
+  const { cardWidth } = useGridLayout();
 
   return (
     <Pressable
