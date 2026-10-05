@@ -1,19 +1,9 @@
-import {
-  Image,
-  Pressable,
-  Text,
-  useWindowDimensions,
-  View,
-} from "react-native";
+import { useGridLayout } from "@/utils/grid";
+import { Image, Pressable, Text, View } from "react-native";
 
 export default function MunicipalityCard({ name, code, image }) {
-  const { width } = useWindowDimensions();
-  const gap = 20;
-  const padding = 20;
-  const columns = width >= 1200 ? 5 : width >= 600 ? 3 : width >= 500 ? 2 : 1;
-  const availableWidth = width - padding * 2;
+  const { gap, padding, cardWidth } = useGridLayout();
 
-  const cardWidth = (availableWidth - gap * (columns - 1)) / columns;
   return (
     <Pressable
       style={{ width: cardWidth, backgroundColor: "white", borderRadius: 15 }}

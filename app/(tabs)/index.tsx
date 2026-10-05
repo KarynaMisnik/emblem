@@ -1,16 +1,10 @@
 import RegionCard from "@/components/RegionCard";
 import { regions } from "@/data/regions";
-import { ScrollView, View, useWindowDimensions } from "react-native";
+import { useGridLayout } from "@/utils/grid";
+import { ScrollView, View } from "react-native";
 
 export default function HomeScreen() {
-  const { width } = useWindowDimensions();
-  const gap = 20;
-  const padding = 20;
-  const columns = width >= 1200 ? 5 : width >= 600 ? 3 : width >= 500 ? 2 : 1;
-  const availableWidth = width - padding * 2;
-
-  const cardWidth = (availableWidth - gap * (columns - 1)) / columns;
-
+  const { gap, padding, cardWidth } = useGridLayout();
   return (
     <ScrollView
       style={{

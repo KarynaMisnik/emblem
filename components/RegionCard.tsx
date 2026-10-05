@@ -1,7 +1,10 @@
+import { useGridLayout } from "@/utils/grid";
 import { router } from "expo-router";
 import { Image, Pressable, Text, View } from "react-native";
 
-export default function RegionCard({ name, image, cardWidth, regionCode }) {
+export default function RegionCard({ name, image, regionCode }) {
+  const { gap, padding, cardWidth } = useGridLayout();
+
   return (
     <Pressable
       onPress={() => router.push(`/region/${regionCode}`)}
