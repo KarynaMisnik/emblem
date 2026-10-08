@@ -1,11 +1,14 @@
 import { useGridLayout } from "@/utils/grid";
+import { useState } from "react";
 import { Image, Pressable, Text, View } from "react-native";
 
 export default function ConsolidatedMunicipalityCard({ name, code, image }) {
   const { cardWidth } = useGridLayout();
+  const [active, setActive] = useState(false);
 
   return (
     <Pressable
+      onPress={() => setActive(true)}
       style={{ width: cardWidth, backgroundColor: "white", borderRadius: 15 }}
     >
       <View>
@@ -22,6 +25,7 @@ export default function ConsolidatedMunicipalityCard({ name, code, image }) {
               height: cardWidth * 0.9,
               resizeMode: "contain",
               marginTop: 10,
+              opacity: active ? 1 : 0.3,
             }}
           />
         </View>
