@@ -1,3 +1,4 @@
+import ConsolidatedMunicipalityCard from "@/components/ConsolidatedMunicipalityCard";
 import MunicipalityCard from "@/components/MunicipalityCard";
 import RegionHeader from "@/components/RegionHeader";
 import RegionMap from "@/components/RegionMap";
@@ -59,6 +60,22 @@ export default function RegionScreen() {
             key={municipality.municipalityCode}
             image={municipality.url}
             name={municipality.municipality}
+          />
+        ))}
+      </View>
+      <View
+        style={{
+          flexDirection: "row",
+          justifyContent: "center",
+          flexWrap: "wrap",
+          gap: gap,
+          padding: padding,
+        }}
+      >
+        {region?.consolidated.map((consolidated) => (
+          <ConsolidatedMunicipalityCard
+            image={consolidated.url}
+            name={consolidated.oldName}
           />
         ))}
       </View>
