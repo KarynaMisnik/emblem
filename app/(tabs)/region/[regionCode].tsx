@@ -74,6 +74,7 @@ export default function RegionScreen() {
       >
         {region?.consolidated.map((consolidated) => (
           <ConsolidatedMunicipalityCard
+            key={consolidated.id}
             image={consolidated.url}
             name={consolidated.oldName}
           />
