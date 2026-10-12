@@ -4,20 +4,37 @@ import { Image, Pressable, Text, View } from "react-native";
 
 export default function ConsolidatedMunicipalityCard({ name, code, image }) {
   const { cardWidth } = useGridLayout();
-  const [active, setActive] = useState(false);
+  const [flipped, setFlipped] = useState(false);
 
   return (
     <Pressable
-      onPress={() => setActive(true)}
-      style={{ width: cardWidth, backgroundColor: "white", borderRadius: 15 }}
+      onPress={() => setFlipped((previous) => !previous)}
+      style={{
+        width: cardWidth,
+        height: cardWidth + 80,
+        backgroundColor: flipped ? "#777" : "white",
+        borderRadius: 15,
+        justifyContent: "center",
+        alignItems: "center",
+      }}
     >
-      <View>
+      {!flipped ? (
+        // Front: gray placeholder shown initially
         <View
           style={{
+            flex: 1,
+            width: "100%",
             justifyContent: "center",
             alignItems: "center",
+            borderRadius: 15,
+            backgroundColor: "#777",
           }}
         >
+          <Text style={{ color: "white", fontSize: 20 }}>Consolidated</Text>
+        </View>
+      ) : (
+        // Back: reveal the actual municipality
+        <View style={{ alignItems: "center" }}>
           <Image
             source={image}
             style={{
@@ -25,11 +42,9 @@ export default function ConsolidatedMunicipalityCard({ name, code, image }) {
               height: cardWidth * 0.9,
               resizeMode: "contain",
               marginTop: 10,
-              opacity: active ? 1 : 0.3,
             }}
           />
-        </View>
-        <View style={{ width: "100%" }}>
+
           <Text
             numberOfLines={2}
             ellipsizeMode="tail"
@@ -45,7 +60,7 @@ export default function ConsolidatedMunicipalityCard({ name, code, image }) {
             {name}
           </Text>
         </View>
-      </View>
+      )}
     </Pressable>
   );
 }
