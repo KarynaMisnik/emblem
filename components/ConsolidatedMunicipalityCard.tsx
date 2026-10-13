@@ -12,7 +12,7 @@ export default function ConsolidatedMunicipalityCard({ name, code, image }) {
       style={{
         width: cardWidth,
         height: cardWidth + 80,
-        backgroundColor: flipped ? "#777" : "white",
+        backgroundColor: "white",
         borderRadius: 15,
         justifyContent: "center",
         alignItems: "center",
@@ -20,18 +20,14 @@ export default function ConsolidatedMunicipalityCard({ name, code, image }) {
     >
       {!flipped ? (
         // Front: gray placeholder shown initially
-        <View
+        <Image
+          source={require("@/assets/old-coats/card-back.png")}
           style={{
-            flex: 1,
+            resizeMode: "stretch",
             width: "100%",
-            justifyContent: "center",
-            alignItems: "center",
-            borderRadius: 15,
-            backgroundColor: "#777",
+            height: "100%",
           }}
-        >
-          <Text style={{ color: "white", fontSize: 20 }}>Consolidated</Text>
-        </View>
+        />
       ) : (
         // Back: reveal the actual municipality
         <View style={{ alignItems: "center" }}>
