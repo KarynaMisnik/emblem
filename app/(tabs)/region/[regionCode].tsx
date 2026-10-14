@@ -5,22 +5,24 @@ import RegionMap from "@/components/RegionMap";
 import { regions } from "@/data/regions";
 import { useGridLayout } from "@/utils/grid";
 import { useLocalSearchParams } from "expo-router";
-import { ScrollView, View } from "react-native";
+import { ScrollView, View, useWindowDimensions } from "react-native";
 
 export default function RegionScreen() {
   const { regionCode } = useLocalSearchParams();
   const region = regions.find((region) => region.regionCode === regionCode);
   const sectionHeight = 350;
   const { gap, padding } = useGridLayout();
+  const { width } = useWindowDimensions();
+  const isMobile = width < 600;
 
   return (
     <ScrollView style={{ backgroundColor: "rgba(0, 0, 0, 0.87)" }}>
-      <View style={{ flexDirection: "row" }}>
+      <View style={{ padding: 10, gap: 20 }}>
+        {/* RegionHeader: full width */}
         <View
           style={{
-            flex: 1,
+            width: "100%",
             height: sectionHeight,
-            margin: 10,
             backgroundColor: "white",
             borderRadius: 8,
           }}
@@ -30,38 +32,49 @@ export default function RegionScreen() {
             name={region?.name}
             image={region?.image}
             regionDescription={region?.regionDescription}
-          ></RegionHeader>
+          />
         </View>
 
+        {/* Map and municipality grid */}
         <View
           style={{
-            flex: 1,
-            alignItems: "center",
-            height: sectionHeight,
-            margin: 10,
-            backgroundColor: "white",
-            borderRadius: 8,
+            flexDirection: isMobile ? "column" : "row",
+            gap: 20,
           }}
         >
-          <RegionMap location={region?.location}></RegionMap>
+          {/* Map: left on desktop, top on mobile */}
+          <View
+            style={{
+              flex: isMobile ? undefined : 1,
+              height: sectionHeight,
+              backgroundColor: "white",
+              borderRadius: 8,
+              alignItems: "center",
+            }}
+          >
+            <RegionMap location={region?.location} />
+          </View>
+
+          {/* Municipality cards: right on desktop, below map on mobile */}
+          <View
+            style={{
+              flex: isMobile ? undefined : 2,
+              flexDirection: "row",
+              justifyContent: "center",
+              flexWrap: "wrap",
+              gap,
+              padding,
+            }}
+          >
+            {region?.municipalities.map((municipality) => (
+              <MunicipalityCard
+                key={municipality.municipalityCode}
+                image={municipality.url}
+                name={municipality.municipality}
+              />
+            ))}
+          </View>
         </View>
-      </View>
-      <View
-        style={{
-          flexDirection: "row",
-          justifyContent: "center",
-          flexWrap: "wrap",
-          gap: gap,
-          padding: padding,
-        }}
-      >
-        {region?.municipalities.map((municipality) => (
-          <MunicipalityCard
-            key={municipality.municipalityCode}
-            image={municipality.url}
-            name={municipality.municipality}
-          />
-        ))}
       </View>
       <View
         style={{
