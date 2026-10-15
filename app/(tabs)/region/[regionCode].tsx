@@ -16,7 +16,7 @@ export default function RegionScreen() {
   const isMobile = width < 600;
 
   return (
-    <ScrollView style={{ backgroundColor: "rgba(0, 0, 0, 0.87)" }}>
+    <ScrollView style={{ backgroundColor: "white" }}>
       <View style={{ padding: 10, gap: 20 }}>
         {/* RegionHeader: full width */}
         <View
@@ -39,17 +39,16 @@ export default function RegionScreen() {
         <View
           style={{
             flexDirection: isMobile ? "column" : "row",
-
-            alignItems: "center",
+            alignItems: "stretch",
             gap: 20,
           }}
         >
           {/* Map: left on desktop, top on mobile */}
           <View
             style={{
+              width: isMobile ? "100%" : undefined,
               flex: isMobile ? undefined : 1,
-              height: sectionHeight,
-              backgroundColor: "white",
+              height: isMobile ? sectionHeight : undefined,
               borderRadius: 8,
               alignItems: "center",
             }}
@@ -78,7 +77,7 @@ export default function RegionScreen() {
         </View>
       </View>
       <View>
-        <Text style={{ color: "white" }}>Consolidated municipalities</Text>
+        <Text>Consolidated municipalities</Text>
       </View>
       <View
         style={{
@@ -86,6 +85,7 @@ export default function RegionScreen() {
           flexWrap: "wrap",
           gap: gap,
           padding: padding,
+          backgroundColor: "rgba(0, 0, 0, 0.87)",
         }}
       >
         {region?.consolidated.map((consolidated) => (
