@@ -5,7 +5,7 @@ export default function RegionMap({ location }) {
     <View>
       <Image
         source={location}
-        style={{ height: 300, width: 250, resizeMode: "contain" }}
+        style={{ height: 500, width: 250, resizeMode: "contain" }}
       ></Image>
     </View>
   );
