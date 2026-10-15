@@ -5,7 +5,7 @@ import RegionMap from "@/components/RegionMap";
 import { regions } from "@/data/regions";
 import { useGridLayout } from "@/utils/grid";
 import { useLocalSearchParams } from "expo-router";
-import { ScrollView, View, useWindowDimensions } from "react-native";
+import { ScrollView, Text, View, useWindowDimensions } from "react-native";
 
 export default function RegionScreen() {
   const { regionCode } = useLocalSearchParams();
@@ -39,6 +39,8 @@ export default function RegionScreen() {
         <View
           style={{
             flexDirection: isMobile ? "column" : "row",
+
+            alignItems: "center",
             gap: 20,
           }}
         >
@@ -60,10 +62,9 @@ export default function RegionScreen() {
             style={{
               flex: isMobile ? undefined : 2,
               flexDirection: "row",
-              justifyContent: "center",
               flexWrap: "wrap",
-              gap,
-              padding,
+              gap: gap,
+              padding: padding,
             }}
           >
             {region?.municipalities.map((municipality) => (
@@ -76,10 +77,12 @@ export default function RegionScreen() {
           </View>
         </View>
       </View>
+      <View>
+        <Text style={{ color: "white" }}>Consolidated municipalities</Text>
+      </View>
       <View
         style={{
           flexDirection: "row",
-          justifyContent: "center",
           flexWrap: "wrap",
           gap: gap,
           padding: padding,
