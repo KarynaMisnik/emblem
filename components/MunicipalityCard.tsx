@@ -6,7 +6,11 @@ export default function MunicipalityCard({ name, code, image }) {
 
   return (
     <Pressable
-      style={{ width: cardWidth, backgroundColor: "white", borderRadius: 15 }}
+      style={{
+        width: cardWidth,
+        backgroundColor: "white",
+        borderRadius: 15,
+      }}
     >
       <View>
         <View

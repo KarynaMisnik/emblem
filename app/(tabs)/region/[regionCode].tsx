@@ -39,19 +39,20 @@ export default function RegionScreen() {
         <View
           style={{
             flexDirection: isMobile ? "column" : "row",
-
-            alignItems: "center",
+            alignItems: "stretch",
             gap: 20,
           }}
         >
           {/* Map: left on desktop, top on mobile */}
           <View
             style={{
+              width: isMobile ? "100%" : undefined,
               flex: isMobile ? undefined : 1,
-              height: sectionHeight,
-              backgroundColor: "white",
+              height: isMobile ? sectionHeight : undefined,
               borderRadius: 8,
               alignItems: "center",
+              backgroundColor: "white",
+              padding: 20,
             }}
           >
             <RegionMap location={region?.location} />
