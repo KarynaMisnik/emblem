@@ -73,6 +73,7 @@ export default function RegionScreen() {
                 key={municipality.municipalityCode}
                 image={municipality.url}
                 name={municipality.municipality}
+                municipalityCode={municipality.municipalityCode}
               />
             ))}
           </View>
