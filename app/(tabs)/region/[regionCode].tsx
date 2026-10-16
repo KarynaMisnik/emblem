@@ -80,23 +80,29 @@ export default function RegionScreen() {
         </View>
       </View>
       <View>
-        <Text style={{ color: "white" }}>Consolidated municipalities</Text>
-      </View>
-      <View
-        style={{
-          flexDirection: "row",
-          flexWrap: "wrap",
-          gap: gap,
-          padding: padding,
-        }}
-      >
-        {region?.consolidated.map((consolidated) => (
-          <ConsolidatedMunicipalityCard
-            key={consolidated.id}
-            image={consolidated.url}
-            name={consolidated.oldName}
-          />
-        ))}
+        <View>
+          <Text style={{ color: "white" }}>Former municipalities</Text>
+          <Text style={{ color: "white" }}>
+            Municipalities that have been merged, renamed, or otherwise ceased
+            to exist as independent municipalities.
+          </Text>
+        </View>
+        <View
+          style={{
+            flexDirection: "row",
+            flexWrap: "wrap",
+            gap: gap,
+            padding: padding,
+          }}
+        >
+          {region?.consolidated.map((consolidated) => (
+            <ConsolidatedMunicipalityCard
+              key={consolidated.id}
+              image={consolidated.url}
+              name={consolidated.oldName}
+            />
+          ))}
+        </View>
       </View>
     </ScrollView>
   );

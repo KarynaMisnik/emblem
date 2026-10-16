@@ -12,7 +12,12 @@ export default function MunicipalityCard({
   const router = useRouter();
   return (
     <Pressable
-      onPress={() => router.push(`/municipality/${municipalityCode}`)}
+      onPress={() =>
+        router.push({
+          pathname: "/municipality/[municipalityCode]",
+          params: { municipalityCode },
+        })
+      }
       style={{
         width: cardWidth,
         backgroundColor: "white",
