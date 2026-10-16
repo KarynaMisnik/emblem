@@ -23,41 +23,29 @@ export default function MunicipalityPage() {
   }
 
   return (
-    <View
-      style={{
-        width: cardWidth,
-        backgroundColor: "white",
-        borderRadius: 15,
-      }}
-    >
-      <View
-        style={{
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+    <View>
+      <View style={{ flexDirection: "row", margin: 8 }}>
         <Image
           source={municipality.url}
           style={{
-            width: cardWidth * 0.9,
-            height: cardWidth * 0.9,
+            width: 50,
+            height: 50,
             resizeMode: "contain",
-            marginTop: 10,
           }}
         />
 
         <Text
           style={{
-            color: "black",
-            textAlign: "center",
             fontWeight: "bold",
             fontSize: 24,
+            height: 60,
             margin: 8,
           }}
         >
           {municipality.municipality}
         </Text>
       </View>
+      <Text style={{ margin: 8 }}>{municipality.municipalityDescription}</Text>
     </View>
   );
 }
