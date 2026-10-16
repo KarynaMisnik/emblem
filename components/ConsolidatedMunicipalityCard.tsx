@@ -26,6 +26,7 @@ export default function ConsolidatedMunicipalityCard({ name, code, image }) {
             resizeMode: "stretch",
             width: "100%",
             height: "100%",
+            borderRadius: 15,
           }}
         />
       ) : (
