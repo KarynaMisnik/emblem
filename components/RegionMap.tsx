@@ -2,11 +2,21 @@ import { Image, View } from "react-native";
 
 export default function RegionMap({ location }) {
   return (
-    <View>
+    <View
+      style={{
+        flex: 1,
+        width: "100%",
+        alignItems: "center",
+      }}
+    >
       <Image
         source={location}
-        style={{ height: 300, width: 250, resizeMode: "contain" }}
-      ></Image>
+        style={{
+          flex: 1,
+          width: "100%",
+          resizeMode: "contain",
+        }}
+      />
     </View>
   );
 }

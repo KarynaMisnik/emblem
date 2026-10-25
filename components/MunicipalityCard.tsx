@@ -1,12 +1,28 @@
 import { useGridLayout } from "@/utils/grid";
+import { useRouter } from "expo-router";
 import { Image, Pressable, Text, View } from "react-native";
 
-export default function MunicipalityCard({ name, code, image }) {
+export default function MunicipalityCard({
+  name,
+  code,
+  image,
+  municipalityCode,
+}) {
   const { cardWidth } = useGridLayout();
-
+  const router = useRouter();
   return (
     <Pressable
-      style={{ width: cardWidth, backgroundColor: "white", borderRadius: 15 }}
+      onPress={() =>
+        router.push({
+          pathname: "/municipality/[municipalityCode]",
+          params: { municipalityCode },
+        })
+      }
+      style={{
+        width: cardWidth,
+        backgroundColor: "white",
+        borderRadius: 15,
+      }}
     >
       <View>
         <View
