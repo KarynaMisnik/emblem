@@ -5,7 +5,14 @@ import RegionMap from "@/components/RegionMap";
 import { regions } from "@/data/regions";
 import { useGridLayout } from "@/utils/grid";
 import { useLocalSearchParams } from "expo-router";
-import { ScrollView, Text, View, useWindowDimensions } from "react-native";
+import { useState } from "react";
+import {
+  Button,
+  ScrollView,
+  Text,
+  View,
+  useWindowDimensions,
+} from "react-native";
 
 export default function RegionScreen() {
   const { regionCode } = useLocalSearchParams();
@@ -14,6 +21,7 @@ export default function RegionScreen() {
   const { gap, padding } = useGridLayout();
   const { width } = useWindowDimensions();
   const isMobile = width < 600;
+  const [revealAll, setRevealAll] = useState(false);
 
   return (
     <ScrollView style={{ backgroundColor: "rgba(0, 0, 0, 0.87)" }}>
@@ -87,21 +95,28 @@ export default function RegionScreen() {
             to exist as independent municipalities.
           </Text>
         </View>
-        <View
-          style={{
-            flexDirection: "row",
-            flexWrap: "wrap",
-            gap: gap,
-            padding: padding,
-          }}
-        >
-          {region?.consolidated.map((consolidated) => (
-            <ConsolidatedMunicipalityCard
-              key={consolidated.id}
-              image={consolidated.url}
-              name={consolidated.oldName}
-            />
-          ))}
+        <View>
+          <Button
+            title={revealAll ? "Hide colors" : "Reveal all colors"}
+            onPress={() => setRevealAll(!revealAll)}
+          />
+          <View
+            style={{
+              flexDirection: "row",
+              flexWrap: "wrap",
+              gap: gap,
+              padding: padding,
+            }}
+          >
+            {region?.consolidated.map((consolidated) => (
+              <ConsolidatedMunicipalityCard
+                key={consolidated.id}
+                image={consolidated.url}
+                name={consolidated.oldName}
+                revealAll={revealAll}
+              />
+            ))}
+          </View>
         </View>
       </View>
     </ScrollView>

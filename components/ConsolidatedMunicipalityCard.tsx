@@ -2,7 +2,12 @@ import { useGridLayout } from "@/utils/grid";
 import { useState } from "react";
 import { Image, Pressable, Text, View } from "react-native";
 
-export default function ConsolidatedMunicipalityCard({ name, code, image }) {
+export default function ConsolidatedMunicipalityCard({
+  name,
+  code,
+  image,
+  revealAll,
+}) {
   const { cardWidth } = useGridLayout();
   const [active, setActive] = useState(false);
 
@@ -29,7 +34,7 @@ export default function ConsolidatedMunicipalityCard({ name, code, image }) {
               height: cardWidth * 0.9,
               resizeMode: "contain",
               marginTop: 10,
-              filter: active ? "none" : "grayscale(1)",
+              filter: revealAll ? "grayscale(0)" : "grayscale(1)",
             }}
           />
         </View>
