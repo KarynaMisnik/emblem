@@ -7,7 +7,7 @@ import { useGridLayout } from "@/utils/grid";
 import { useLocalSearchParams } from "expo-router";
 import { useState } from "react";
 import {
-  Button,
+  Pressable,
   ScrollView,
   Text,
   View,
@@ -96,10 +96,21 @@ export default function RegionScreen() {
           </Text>
         </View>
         <View>
-          <Button
-            title={revealAll ? "Hide colors" : "Reveal all colors"}
-            onPress={() => setRevealAll(!revealAll)}
-          />
+          <View style={{ alignItems: "flex-end", marginRight: padding }}>
+            <Pressable
+              onPress={() => setRevealAll(!revealAll)}
+              style={{
+                backgroundColor: "white",
+                paddingHorizontal: 12,
+                paddingVertical: 6,
+                borderRadius: 8,
+              }}
+            >
+              <Text style={{ fontSize: 14, color: "black" }}>
+                {revealAll ? "Hide colors" : "Reveal all"}
+              </Text>
+            </Pressable>
+          </View>
           <View
             style={{
               flexDirection: "row",
