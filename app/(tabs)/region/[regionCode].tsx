@@ -102,11 +102,13 @@ export default function RegionScreen() {
               style={{
                 backgroundColor: "white",
                 paddingHorizontal: 12,
-                paddingVertical: 6,
+                paddingVertical: 8,
                 borderRadius: 8,
               }}
             >
-              <Text style={{ fontSize: 14, color: "black" }}>
+              <Text
+                style={{ fontSize: 14, color: "#002F6C", fontWeight: "bold" }}
+              >
                 {revealAll ? "Hide colors" : "Reveal all"}
               </Text>
             </Pressable>
